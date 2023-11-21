@@ -38,6 +38,6 @@ After saving the hosts file, restart your computer for the changes to take effec
 
 ## License
 
-This repository is licensed under the MIT License.
+This repository is licensed under the my Personal License.
 
 Feel free to contribute, suggest improvements, or report issues through GitHub issues or pull requests. Use this hosts file responsibly, and remember to have a backup before making any changes.
