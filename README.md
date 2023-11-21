@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository is dedicated to maintaining and version-controlling the Windows Hosts file for [your name]. The hosts file is a text file that maps hostnames to IP addresses, and by editing it, you can effectively block ads and tracking on your Windows computer.
+This repository is dedicated to maintaining and version-controlling the Windows Hosts file. The hosts file is a text file that maps hostnames to IP addresses, and by editing it, you can effectively block ads and tracking on your Windows computer.
 
 ## Contents
 
