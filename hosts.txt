@@ -1,326 +1,163 @@
-# Copyright (c) 1993-2009 Microsoft Corp.
+# https://sites.google.com/spotifyx.com/spotifyxhub/resources/spotifyx-catalog-manager-scatman
+# see https://sites.google.com/spotifyx.com/spotifyxhub/
 #
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
 #	127.0.0.1       localhost
 #	::1             localhost
-0.0.0.0	oca.telemetry.microsoft.com # managed by privacy.sexy
-::1	oca.telemetry.microsoft.com # managed by privacy.sexy
-0.0.0.0	oca.microsoft.com # managed by privacy.sexy
-::1	oca.microsoft.com # managed by privacy.sexy
-0.0.0.0	kmwatsonc.events.data.microsoft.com # managed by privacy.sexy
-::1	kmwatsonc.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	watson.telemetry.microsoft.com # managed by privacy.sexy
-::1	watson.telemetry.microsoft.com # managed by privacy.sexy
-0.0.0.0	umwatsonc.events.data.microsoft.com # managed by privacy.sexy
-::1	umwatsonc.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	ceuswatcab01.blob.core.windows.net # managed by privacy.sexy
-::1	ceuswatcab01.blob.core.windows.net # managed by privacy.sexy
-0.0.0.0	ceuswatcab02.blob.core.windows.net # managed by privacy.sexy
-::1	ceuswatcab02.blob.core.windows.net # managed by privacy.sexy
-0.0.0.0	eaus2watcab01.blob.core.windows.net # managed by privacy.sexy
-::1	eaus2watcab01.blob.core.windows.net # managed by privacy.sexy
-0.0.0.0	eaus2watcab02.blob.core.windows.net # managed by privacy.sexy
-::1	eaus2watcab02.blob.core.windows.net # managed by privacy.sexy
-0.0.0.0	weus2watcab01.blob.core.windows.net # managed by privacy.sexy
-::1	weus2watcab01.blob.core.windows.net # managed by privacy.sexy
-0.0.0.0	weus2watcab02.blob.core.windows.net # managed by privacy.sexy
-::1	weus2watcab02.blob.core.windows.net # managed by privacy.sexy
-0.0.0.0	co4.telecommand.telemetry.microsoft.com # managed by privacy.sexy
-::1	co4.telecommand.telemetry.microsoft.com # managed by privacy.sexy
-0.0.0.0	cs11.wpc.v0cdn.net # managed by privacy.sexy
-::1	cs11.wpc.v0cdn.net # managed by privacy.sexy
-0.0.0.0	cs1137.wpc.gammacdn.net # managed by privacy.sexy
-::1	cs1137.wpc.gammacdn.net # managed by privacy.sexy
-0.0.0.0	modern.watson.data.microsoft.com # managed by privacy.sexy
-::1	modern.watson.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	functional.events.data.microsoft.com # managed by privacy.sexy
-::1	functional.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	browser.events.data.msn.com # managed by privacy.sexy
-::1	browser.events.data.msn.com # managed by privacy.sexy
-0.0.0.0	self.events.data.microsoft.com # managed by privacy.sexy
-::1	self.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	v10.events.data.microsoft.com # managed by privacy.sexy
-::1	v10.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	v10c.events.data.microsoft.com # managed by privacy.sexy
-::1	v10c.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	us-v10c.events.data.microsoft.com # managed by privacy.sexy
-::1	us-v10c.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	eu-v10c.events.data.microsoft.com # managed by privacy.sexy
-::1	eu-v10c.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	v10.vortex-win.data.microsoft.com # managed by privacy.sexy
-::1	v10.vortex-win.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	vortex-win.data.microsoft.com # managed by privacy.sexy
-::1	vortex-win.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	telecommand.telemetry.microsoft.com # managed by privacy.sexy
-::1	telecommand.telemetry.microsoft.com # managed by privacy.sexy
-0.0.0.0	www.telecommandsvc.microsoft.com # managed by privacy.sexy
-::1	www.telecommandsvc.microsoft.com # managed by privacy.sexy
-0.0.0.0	umwatson.events.data.microsoft.com # managed by privacy.sexy
-::1	umwatson.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	watsonc.events.data.microsoft.com # managed by privacy.sexy
-::1	watsonc.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	eu-watsonc.events.data.microsoft.com # managed by privacy.sexy
-::1	eu-watsonc.events.data.microsoft.com # managed by privacy.sexy
-0.0.0.0	config.edge.skype.com # managed by privacy.sexy
-::1	config.edge.skype.com # managed by privacy.sexy
-0.0.0.0	telemetry.dropbox.com # managed by privacy.sexy
-::1	telemetry.dropbox.com # managed by privacy.sexy
-0.0.0.0	telemetry.v.dropbox.com # managed by privacy.sexy
-::1	telemetry.v.dropbox.com # managed by privacy.sexy
-
-
-# Copyright (c) 1993-2009 Microsoft Corp.
-#
-# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
 #       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
-127.0.0.1 localhost
-::1 localhost
-127.0.0.1 cryptomator-vault
-
-adclick.g.doublecklick.net
-adeventtracker.spotifyx.com
-ads-fa.spotifyx.com
-analytics.spotifyx.com
-audio2.spotifyx.com
-b.scorecardresearch.com
-bounceexchange.com
-bs.serving-sys.com
-content.bitsontherun.com
-core.insightexpressai.com
-crashdump.spotifyx.com
-d2gi7ultltnc2u.cloudfront.net
-d3rt1990lpmkn.cloudfront.net
-desktop.spotifyx.com
-doubleclick.net
-ds.serving-sys.com
-googleadservices.com
-googleads.g.doubleclick.net
-gtssl2-ocsp.geotrust.com
-js.moatads.com
-log.spotifyx.com
-media-match.com
-omaze.com
-pagead46.l.doubleclick.net
-pagead2.googlesyndication.com
-partner.googleadservices.com
-pubads.g.doubleclick.net
-redirector.gvt1.com
-s0.2mdn.net
-securepubads.g.doubleclick.net
-tpc.googlesyndication.com
-v.jwpcdn.com
-video-ad-stats.googlesyndication.com
-weblb-wg.gslb.spotifyx.com
-www.googleadservices.com
-www.googletagservices.com
-heads4-ak.spotifyx.com.edgesuite.net
-i.scdn.co
-adservice.google.co.uk
-audio4-ak.spotifyx.com.edgesuite.net
-#additonal domains 
-adnxs.com
-adnxs.comadplexmedia.adk2x.com
-ads.spotifyx.com
-audio-sp-sto.spotifyx.com
-cs126.wpc.edgecastcdn.net
-d3rt199lpmkn.cloudfront.net
-gew1.ap.spotifyx.com
-googleadapis.l.google.com
-googleads4.g.doubleclick.net
-lon6-accesspoint-a33.lon6.spotifyx.com
-s.2mdn.net
-seen-on-screen.thewhizmarketing.com
-server-54-23-216-23.mrs5.r.cloudfront.net
-u.scdn.co
-upgrade.scdn.co
-upgrade.spotifyx.com
-www.omaze.com
-audio-fa.scdn.co
-audio-fa.spotifyx.com
-## new domains added 02012019
-ad.atdmt.com
-adlab.spotifyx.com
-ads.pubmatic.com
-ads-akp.spotifyx.com
-adserver.adtechus.com
-ads-sp-lon.cdn.spotifyx.com
-ads-west-colo.adsymptotic.com
-anycast.pixel.adsafeprotected.com
-assets.spotifyx.com
-audio-ak.spotifyx.com
-audio-akp.spotifyx.com
-audio-cf.spotifyx.com
-audio-ec.spotifyx.com
-audio-fab.spotifyx.com
-audio-fac-spotifyx.com
-audio-gc.scdn.co
-audio-gc.spotifyx.com
-audio-sp-lon.spotifyx.com
-beta.spotifyx.map.fastly.net
-bid.g.doubleclick.net
-cm.g.doubleclick.net
-crashdump.ciqe-gslb.spotifyx.com
-cs126.wpc.teliasoneracdn.net
-cs283.wpc.teliasoneracdn.net
-d361oi6ppvq2ym.cloudfront.net
-dt.adsafeprotected.com
-fw.adsafeprotected.com
-gads.pubmatic.com
-geo3.ggpht.com
-googlehosted.l.googleusercontent.com
-googletagservices.com
-heads-ak.spotifyx.com
-heads-akp.spotifyx.com
-heads-cf.spotifyx.com
-heads-ec.spotifyx.com
-heads-fa.scdn.co
-heads-fa.spotifyx.com
-heads-fab.spotifyx.com
-heads-fac.spotifyx.com
-idsync-ext.rlcdn.com
-links.spotifyx.com
-log2.spotifyx.com
-mp3ad.scdn.co
-na.gmtdmp.com
-pagead.l.doubleclick.net
-pagead-googlehosted.l.google.com
-partnerad.l.doubleclick.net
-partner-service.spotifyx.com
-partner-service-testing.spotifyx.com
-payment-callback.spotifyx.com
-pci.spotifyx.com
-pixel.spotifyx.com
-prod.spotifyx.map.fastlylb.net
-prod.spotifyx-heads.map.fastlylb.net
-secure.insightexpressai.com
-server-54-230-216-203.mrs50.r.cloudfront.net
-showads33000.pubmatic.com
-spotifyx-desktop.com
-sto3.spotifyx.com
-sto3-accesspoint-a88.sto3.spotifyx.net
-sync.adaptv.advertising.com
-techattend.com
-upgrade.scdn.co#optional
-upgrade.spotifyx.com#optional
-video-fa.cdn.spotifyx.com
-video-fa.scdn.co
-video-fa-b.cdn.spotifyx.com
-devicemetadataservice.trafficmanager.net
-# additional addreses 13022020
-audio-akp-bbr-spotifyx-com.akamaized.net
-exp.wg.spotifyx.com
-heads-ak-spotifyx-com.akamaized.net
-scannables.scdn.co
-spritemaps.scdn.co
-video-akp-cdn-spotifyx-com.akamaized.net
-audio4-ak-spotifyx-com.akamaized.net
-###addidtional domains added 020320200
+#      102.54.94.97     rhino.acme.com          # source server
+#    BELOW CURRENTLY EXISTENT spotifyx SERVERS    #
 # .ash.spotifyx.com
 # .ash1.spotifyx.com
 # .ash2.spotifyx.com
 # .weblb-wg.
+# Additionally, comments (such as these) may be inserted on individual
+# Copyright (c) 1993-2009 Microsoft Corp.
+# For example:
+# The IP address and the host name should be separated by at least one
+# This file contains the mappings of IP addresses to host names. Each
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+# additional addreses 13022020
+# adjust ads
+# admob ads
+# akamai technologies
+# akamai technologies audio ads (geo dependent), akp point to different networks, ak to hosts
+# akamai technologies video ads
+# amazon
+# amazon cloudfront advertisements
+# aol
 # ap.spotifyx.com
-# api-spotifyx.com
 # api-partner.spotifyx.com
+# api-spotifyx.com
 # api-tv.spotifyx.com
+# appnexus
 # apresolve.spotifyx.com
-# audio-sp.spotifyx.com
 # audio-sp-
-# dealer.spotifyx.com
+# audio-sp.spotifyx.com
+# ayden payments
+# be placed in the first column followed by the corresponding host name.
+# block adjust ads
+# block admob ads
+# block akamai technologies (i doubt it will be used directly)
+# block bounce exchange (anonymous)
+# block comscore analytics
+# block crashlytics
+# block myvisualiq tracker (used in web player)
+# bounce exchange (anonymous)
+# comscore analytics
+# crashlytics
+# data protected
 # dealer-ssl.spotifyx.com
+# dealer.spotifyx.com
+# drawbridge
+# entering the akamai network (geo dependent)
+# entry should be kept on an individual line. The IP address should
+# equinix carpathia datacenter (physical location unknown)
+# fastly advertisements
+# geotrust
+# google ads
+# google analytics
 # gslb.spotifyx.com
+# integral ad science
+# intercom ads
+# ipinfo.io api
+# iterable
+# kantar operations
+# leanlab
+# lines or following the machine name denoted by a '#' symbol.
+# localhost name resolution is handled within DNS itself.
+# longtail ad solutions (jwplayer also used for ads)
+# media innovation group
+# media match
+# mixpanel analytics
+# moatads / moatanalytics
+# mobileapptracking ads (now tune)
+# omaze
 # open.scdn.co
 # open.spotifyx.com
 # play.spotifyx.com
+# pubmatic
+# ravenjs (debugging etc)
+# scorecardresearch
+# sizmek technologies
+# space.
 # spclient.spotifyx.com
+# spotifyx (internal) data servers (data servers)
+# spotifyx global network servers (router)
+# spotifyx identity servers
+# spotifyx network (vpn)
+# spotifyx network load balancer
+# spotifyx network resolver
+# spotifyx network server (jump hosts)
+# spotifyx network servers (is this the heart?)
+# spotifyx network servers (proxies)
+# spotifyx server (akamai technologies)
+# spotifyx server (fastly network)
+# spotifyx server (merit networks, google cloud)
+# spotifyx servers (amazon cloudfront)
+# spotifyx servers (api)
+# spotifyx servers (automattic, wordpress)
+# spotifyx servers (bynder, agile marketing)
+# spotifyx servers (fastly network, serves the data, geo dependent)
+# spotifyx servers (google cloud, does the routing, geo dependent)
+# spotifyx servers (internal or partner use, some uses google cloud)
+# spotifyx servers (interoute communications)
+# spotifyx servers (lithium)
+# spotifyx servers (misc)
+# spotifyx servers (sendgrid)
+# spotifyx servers (spotifyx geo audio streaming using airport codes, iata 3-letter codes)
+# spotifyx servers (statistics & tracking)
+# spotifyx servers (steadfast networks)
 # sto3.spotifyx.com
+# telia
+# the whiz marketing
+# these are servers related to cache.spotifyx.com
+# verizon
+# voicefive
 # wg.spotifyx.com (*)
-0.0.0.0 adeventtracker.spotifyx.com
-0.0.0.0 ads-akp.spotifyx.com
-0.0.0.0 audio-ak.spotifyx.com
-0.0.0.0 audio-akp.spotifyx.com
-0.0.0.0 analytics.spotifyx.com
-0.0.0.0 assets.spotifyx.com
-0.0.0.0 audio-cf.spotifyx.com
-0.0.0.0 audio-fa.spotifyx.com
-0.0.0.0 audio-fab.spotifyx.com
-0.0.0.0 audio-fac-spotifyx.com
-0.0.0.0 audio-gc.scdn.co
-0.0.0.0 audio-gc.spotifyx.com
-0.0.0.0 crashdump.spotifyx.com
-0.0.0.0 crashdump.ciqe-gslb.spotifyx.com
-0.0.0.0 heads-ak.spotifyx.com
-0.0.0.0 heads-akp.spotifyx.com
-0.0.0.0 heads-cf.spotifyx.com
-0.0.0.0 heads-fa.scdn.co
-0.0.0.0 heads-fa.spotifyx.com
-0.0.0.0 heads-fab.spotifyx.com
-0.0.0.0 heads-fac.spotifyx.com
-0.0.0.0 links.spotifyx.com
-0.0.0.0 log.spotifyx.com
-0.0.0.0 log2.spotifyx.com
-0.0.0.0 mp3ad.scdn.co
-0.0.0.0 partner-service.spotifyx.com
-0.0.0.0 partner-service-testing.spotifyx.com
-0.0.0.0 payment-callback.spotifyx.com
-0.0.0.0 pci.spotifyx.com
-0.0.0.0 pixel.spotifyx.com
-0.0.0.0 upgrade.scdn.co # optional
-0.0.0.0 upgrade.spotifyx.com # optional
-0.0.0.0 video-fa.scdn.co
-0.0.0.0 video-fa.cdn.spotifyx.com
-0.0.0.0 video-fa-b.cdn.spotifyx.com
-0.0.0.0 audio-ak-spotifyx-com.akamaized.net
-0.0.0.0 audio-ake.spotifyx.com.edgesuite.net
-0.0.0.0 audio-akp-spotifyx-com.akamaized.net
-0.0.0.0 audio-ak.spotifyx.com.edgesuite.net
-0.0.0.0 audio-akp.spotifyx.com.edgesuite.net
-0.0.0.0 audio4-ak.spotifyx.com.edgesuite.net
-0.0.0.0 audio4-akp.spotifyx.com.edgesuite.net
-0.0.0.0 audio-ak.spotifyx.com.eip.akadns.net
-0.0.0.0 eip-onnet.audio-ak.spotifyx.com.akahost.net
-0.0.0.0 eip-tata.audio-ak.spotifyx.com.akahost.net
-0.0.0.0 eip-ntt.audio-ak.spotifyx.com.akahost.net
-0.0.0.0 event.spotxchange.com
-0.0.0.0 heads-ak.spotifyx.com.edgesuite.net
-0.0.0.0 heads-akp.spotifyx.com.edgesuite.net
-0.0.0.0 heads4-ak.spotifyx.com.edgesuite.net
-0.0.0.0 heads4-akp.spotifyx.com.edgesuite.net
-0.0.0.0 search.spotxchange.com
-0.0.0.0 sync.search.spotxchange.com
-0.0.0.0 spotxchange.com
-0.0.0.0 www.spotx.tv
+# yahoo adflurry
+# zwizz army knife (anonymous)
+## new domains added 02012019
+##################################################
+###addidtional domains added 020320200
+#0.0.0.0 app.adjust.com <- do not block
+#127.0.0.1 beta.spotifyx.map.fastly.net
+#127.0.0.1 beta.spotifyx.map.fastlylb.net
+#127.0.0.1 prod.spotifyx.map.fastly.net
+#127.0.0.1 prod.spotifyx.map.fastlylb.net
+#additonal domains 
+#app.adjust.com <- do not block
+0.0.0.0	browser.events.data.msn.com # managed by privacy.sexy
+0.0.0.0	ceuswatcab01.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	ceuswatcab02.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	co4.telecommand.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	config.edge.skype.com # managed by privacy.sexy
+0.0.0.0	cs11.wpc.v0cdn.net # managed by privacy.sexy
+0.0.0.0	cs1137.wpc.gammacdn.net # managed by privacy.sexy
+0.0.0.0	eaus2watcab01.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	eaus2watcab02.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	eu-v10c.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	eu-watsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	functional.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	kmwatsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	modern.watson.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	oca.microsoft.com # managed by privacy.sexy
+0.0.0.0	oca.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	self.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	telecommand.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	telemetry.dropbox.com # managed by privacy.sexy
+0.0.0.0	telemetry.v.dropbox.com # managed by privacy.sexy
+0.0.0.0	umwatson.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	umwatsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	us-v10c.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	v10.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	v10.vortex-win.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	v10c.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	vortex-win.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	watson.telemetry.microsoft.com # managed by privacy.sexy
+0.0.0.0	watsonc.events.data.microsoft.com # managed by privacy.sexy
+0.0.0.0	weus2watcab01.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	weus2watcab02.blob.core.windows.net # managed by privacy.sexy
+0.0.0.0	www.telecommandsvc.microsoft.com # managed by privacy.sexy
 0.0.0.0 00.video-ak.cdn.spotifyx.com
 0.0.0.0 01.video-ak.cdn.spotifyx.com
 0.0.0.0 02.video-ak.cdn.spotifyx.com
@@ -454,119 +291,41 @@ audio4-ak-spotifyx-com.akamaized.net
 0.0.0.0 9d.video-ak.cdn.spotifyx.com
 0.0.0.0 9e.video-ak.cdn.spotifyx.com
 0.0.0.0 9f.video-ak.cdn.spotifyx.com
+0.0.0.0 a.adk2x.com
+0.0.0.0 a.admob.com
 0.0.0.0 a0.video-ak.cdn.spotifyx.com
 0.0.0.0 a1.video-ak.cdn.spotifyx.com
+0.0.0.0 a1294.w20.akamai.net
+0.0.0.0 a1843.g.akamai.net
 0.0.0.0 a2.video-ak.cdn.spotifyx.com
+0.0.0.0 a297.c.akamai.net
 0.0.0.0 a3.video-ak.cdn.spotifyx.com
+0.0.0.0 a301.w62d.akamai.net
 0.0.0.0 a4.video-ak.cdn.spotifyx.com
 0.0.0.0 a5.video-ak.cdn.spotifyx.com
+0.0.0.0 a50.g2.akamai.net
 0.0.0.0 a6.video-ak.cdn.spotifyx.com
 0.0.0.0 a7.video-ak.cdn.spotifyx.com
 0.0.0.0 a8.video-ak.cdn.spotifyx.com
 0.0.0.0 a9.video-ak.cdn.spotifyx.com
 0.0.0.0 aa.video-ak.cdn.spotifyx.com
+0.0.0.0 ab.tune.com
 0.0.0.0 ab.video-ak.cdn.spotifyx.com
 0.0.0.0 ac.video-ak.cdn.spotifyx.com
-0.0.0.0 ad.video-ak.cdn.spotifyx.com
-0.0.0.0 ae.video-ak.cdn.spotifyx.com
-0.0.0.0 af.video-ak.cdn.spotifyx.com
-0.0.0.0 b0.video-ak.cdn.spotifyx.com
-0.0.0.0 b1.video-ak.cdn.spotifyx.com
-0.0.0.0 b2.video-ak.cdn.spotifyx.com
-0.0.0.0 b3.video-ak.cdn.spotifyx.com
-0.0.0.0 b4.video-ak.cdn.spotifyx.com
-0.0.0.0 b5.video-ak.cdn.spotifyx.com
-0.0.0.0 b6.video-ak.cdn.spotifyx.com
-0.0.0.0 b7.video-ak.cdn.spotifyx.com
-0.0.0.0 b8.video-ak.cdn.spotifyx.com
-0.0.0.0 b9.video-ak.cdn.spotifyx.com
-0.0.0.0 ba.video-ak.cdn.spotifyx.com
-0.0.0.0 bb.video-ak.cdn.spotifyx.com
-0.0.0.0 bc.video-ak.cdn.spotifyx.com
-0.0.0.0 bd.video-ak.cdn.spotifyx.com
-0.0.0.0 be.video-ak.cdn.spotifyx.com
-0.0.0.0 bf.video-ak.cdn.spotifyx.com
-0.0.0.0 c0.video-ak.cdn.spotifyx.com
-0.0.0.0 c1.video-ak.cdn.spotifyx.com
-0.0.0.0 c2.video-ak.cdn.spotifyx.com
-0.0.0.0 c3.video-ak.cdn.spotifyx.com
-0.0.0.0 c4.video-ak.cdn.spotifyx.com
-0.0.0.0 c5.video-ak.cdn.spotifyx.com
-0.0.0.0 c6.video-ak.cdn.spotifyx.com
-0.0.0.0 c7.video-ak.cdn.spotifyx.com
-0.0.0.0 c8.video-ak.cdn.spotifyx.com
-0.0.0.0 c9.video-ak.cdn.spotifyx.com
-0.0.0.0 ca.video-ak.cdn.spotifyx.com
-0.0.0.0 cb.video-ak.cdn.spotifyx.com
-0.0.0.0 cc.video-ak.cdn.spotifyx.com
-0.0.0.0 cd.video-ak.cdn.spotifyx.com
-0.0.0.0 ce.video-ak.cdn.spotifyx.com
-0.0.0.0 cf.video-ak.cdn.spotifyx.com
-0.0.0.0 d0.video-ak.cdn.spotifyx.com
-0.0.0.0 d1.video-ak.cdn.spotifyx.com
-0.0.0.0 d2.video-ak.cdn.spotifyx.com
-0.0.0.0 d3.video-ak.cdn.spotifyx.com
-0.0.0.0 d4.video-ak.cdn.spotifyx.com
-0.0.0.0 d5.video-ak.cdn.spotifyx.com
-0.0.0.0 d6.video-ak.cdn.spotifyx.com
-0.0.0.0 d7.video-ak.cdn.spotifyx.com
-0.0.0.0 d8.video-ak.cdn.spotifyx.com
-0.0.0.0 d9.video-ak.cdn.spotifyx.com
-0.0.0.0 da.video-ak.cdn.spotifyx.com
-0.0.0.0 db.video-ak.cdn.spotifyx.com
-0.0.0.0 dc.video-ak.cdn.spotifyx.com
-0.0.0.0 dd.video-ak.cdn.spotifyx.com
-0.0.0.0 de.video-ak.cdn.spotifyx.com
-0.0.0.0 df.video-ak.cdn.spotifyx.com
-0.0.0.0 e0.video-ak.cdn.spotifyx.com
-0.0.0.0 e1.video-ak.cdn.spotifyx.com
-0.0.0.0 e2.video-ak.cdn.spotifyx.com
-0.0.0.0 e3.video-ak.cdn.spotifyx.com
-0.0.0.0 e4.video-ak.cdn.spotifyx.com
-0.0.0.0 e5.video-ak.cdn.spotifyx.com
-0.0.0.0 e6.video-ak.cdn.spotifyx.com
-0.0.0.0 e7.video-ak.cdn.spotifyx.com
-0.0.0.0 e8.video-ak.cdn.spotifyx.com
-0.0.0.0 e9.video-ak.cdn.spotifyx.com
-0.0.0.0 ea.video-ak.cdn.spotifyx.com
-0.0.0.0 eb.video-ak.cdn.spotifyx.com
-0.0.0.0 ec.video-ak.cdn.spotifyx.com
-0.0.0.0 ed.video-ak.cdn.spotifyx.com
-0.0.0.0 ee.video-ak.cdn.spotifyx.com
-0.0.0.0 ef.video-ak.cdn.spotifyx.com
-0.0.0.0 f0.video-ak.cdn.spotifyx.com
-0.0.0.0 f1.video-ak.cdn.spotifyx.com
-0.0.0.0 f2.video-ak.cdn.spotifyx.com
-0.0.0.0 f3.video-ak.cdn.spotifyx.com
-0.0.0.0 f4.video-ak.cdn.spotifyx.com
-0.0.0.0 f5.video-ak.cdn.spotifyx.com
-0.0.0.0 f6.video-ak.cdn.spotifyx.com
-0.0.0.0 f7.video-ak.cdn.spotifyx.com
-0.0.0.0 f8.video-ak.cdn.spotifyx.com
-0.0.0.0 f9.video-ak.cdn.spotifyx.com
-0.0.0.0 fc.video-ak.cdn.spotifyx.com
-0.0.0.0 fd.video-ak.cdn.spotifyx.com
-0.0.0.0 fe.video-ak.cdn.spotifyx.com
-0.0.0.0 ff.video-ak.cdn.spotifyx.com
-0.0.0.0 beta.spotifyx.map.fastly.net
-0.0.0.0 beta.spotifyx.map.fastlylb.net
-0.0.0.0 prod.spotifyx-heads.map.fastlylb.net
-0.0.0.0 prod.spotifyx.map.fastly.net
-0.0.0.0 prod.spotifyx.map.fastlylb.net
-0.0.0.0 ipinfo.io
-0.0.0.0 cdn.ravenjs.com
-0.0.0.0 links.iterable.com
-# block adjust ads
-0.0.0.0 adjust.com
-#0.0.0.0 app.adjust.com <- do not block
-0.0.0.0 atom.adjust.com
-0.0.0.0 events.adjust.com
-0.0.0.0 ulink.adjust.com
-0.0.0.0 view.adjust.com
-# block admob ads
-0.0.0.0 a.admob.com
 0.0.0.0 ac1.vip.sc9.admob.com
 0.0.0.0 ac208.sc9.admob.com
+0.0.0.0 academy.tune.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.video-ak.cdn.spotifyx.com
+0.0.0.0 ad3.adfarm1.adition.com
+0.0.0.0 adclick.g.doublecklick.
+0.0.0.0 adclick.g.doublecklick.net
+0.0.0.0 ade.googlesyndication.com
+0.0.0.0 adeventtracker.spotifyx.
+0.0.0.0 adeventtracker.spotifyx.com
+0.0.0.0 adgrx.moatads.com
+0.0.0.0 adjust.com
+0.0.0.0 admetrix.comscore.com
 0.0.0.0 admob.biz
 0.0.0.0 admob.co.kr
 0.0.0.0 admob.co.nz
@@ -587,17 +346,123 @@ audio4-ak-spotifyx-com.akamaized.net
 0.0.0.0 admob.sg
 0.0.0.0 admob.tk
 0.0.0.0 admob.tw
+0.0.0.0 adnxs.com
+0.0.0.0 adnxs.comadplexmedia.adk2x.com
+0.0.0.0 ads-akp.spotifyx.com
+0.0.0.0 ads-fa.spotifyx.0.0.0.0 ads.pubmatic.c
+0.0.0.0 ads-west-colo.adsymptotic.com
 0.0.0.0 ads.admob.com
+0.0.0.0 ads.flurry.com
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 adserver.adtechus.com
+0.0.0.0 adservice.google.com
+0.0.0.0 ae.video-ak.cdn.spotifyx.com
+0.0.0.0 af.video-ak.cdn.spotifyx.com
+0.0.0.0 afs.moatads.com
+0.0.0.0 ams1-ib.adnxs.com
 0.0.0.0 analytics.admob.com
+0.0.0.0 analytics.google.com
+0.0.0.0 analytics.spotifyx.
+0.0.0.0 analytics.spotifyx.com
+0.0.0.0 anycast.pixel.adsafeprotected.com
+0.0.0.0 api-iam.intercom.io
+0.0.0.0 api-ping.intercom.io
 0.0.0.0 api.admob.com
 0.0.0.0 api.admob.xiaomi.com
+0.0.0.0 api.comscore.com
+0.0.0.0 api.intercom.io
+0.0.0.0 api.mixpanel.com
+0.0.0.0 api.zwizzarmyknife.com
+0.0.0.0 apx.moatads.com
+0.0.0.0 ar.voicefive.com
+0.0.0.0 aser.comscore.com
+0.0.0.0 assets.spotifyx.com
+0.0.0.0 atom.adjust.com
+0.0.0.0 audio-ak-spotifyx-com.akamaized.net
+0.0.0.0 audio-ak.spotifyx.com
+0.0.0.0 audio-ak.spotifyx.com.edgesuite.net
+0.0.0.0 audio-ak.spotifyx.com.eip.akadns.net
+0.0.0.0 audio-ake.spotifyx.com.edgesuite.net
+0.0.0.0 audio-akp-spotifyx-com.akamaized.net
+0.0.0.0 audio-akp.spotifyx.com
+0.0.0.0 audio-akp.spotifyx.com.edgesuite.net
+0.0.0.0 audio-cf.spotifyx.com
+0.0.0.0 audio-fa.spotifyx.com
+0.0.0.0 audio-fab.spotifyx.com
+0.0.0.0 audio-fac-spotifyx.com
+0.0.0.0 audio-gc.scdn.co
+0.0.0.0 audio-gc.spotifyx.com
+0.0.0.0 audio4-ak.spotifyx.com.edgesuite.net
+0.0.0.0 audio4-akp.spotifyx.com.edgesuite.net
 0.0.0.0 b.admob.com
+0.0.0.0 b.scorecardresearch.
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 b0.video-ak.cdn.spotifyx.com
+0.0.0.0 b1.video-ak.cdn.spotifyx.com
+0.0.0.0 b2.video-ak.cdn.spotifyx.com
+0.0.0.0 b3.video-ak.cdn.spotifyx.com
+0.0.0.0 b4.video-ak.cdn.spotifyx.com
+0.0.0.0 b5.video-ak.cdn.spotifyx.com
+0.0.0.0 b6.video-ak.cdn.spotifyx.com
+0.0.0.0 b7.video-ak.cdn.spotifyx.com
+0.0.0.0 b8.video-ak.cdn.spotifyx.com
+0.0.0.0 b9.video-ak.cdn.spotifyx.com
+0.0.0.0 ba.video-ak.cdn.spotifyx.com
+0.0.0.0 bb.video-ak.cdn.spotifyx.com
+0.0.0.0 bc.video-ak.cdn.spotifyx.com
+0.0.0.0 bd.moatads.com
+0.0.0.0 bd.video-ak.cdn.spotifyx.com
+0.0.0.0 be.video-ak.cdn.spotifyx.com
+0.0.0.0 beta.spotifyx.map.fastly.net
+0.0.0.0 beta.spotifyx.map.fastlylb.net
+0.0.0.0 beta.tune.com
+0.0.0.0 bf.video-ak.cdn.spotifyx.com
+0.0.0.0 bounceexchange.
+0.0.0.0 bounceexchange.com
 0.0.0.0 broadcast.admob.com
+0.0.0.0 bs.serving-sys.
+0.0.0.0 bs.serving-sys.com
+0.0.0.0 bsams.eyeblaster.akadns.net
+0.0.0.0 c-evt.moatads.com
 0.0.0.0 c.admob.com
+0.0.0.0 c0.video-ak.cdn.spotifyx.com
+0.0.0.0 c1.video-ak.cdn.spotifyx.com
 0.0.0.0 c1.vip.sc9.admob.com
+0.0.0.0 c2.video-ak.cdn.spotifyx.com
+0.0.0.0 c3.video-ak.cdn.spotifyx.com
+0.0.0.0 c4.video-ak.cdn.spotifyx.com
+0.0.0.0 c5.video-ak.cdn.spotifyx.com
+0.0.0.0 c6.video-ak.cdn.spotifyx.com
+0.0.0.0 c7.video-ak.cdn.spotifyx.com
+0.0.0.0 c8.video-ak.cdn.spotifyx.com
+0.0.0.0 c9.video-ak.cdn.spotifyx.com
+0.0.0.0 ca.video-ak.cdn.spotifyx.com
+0.0.0.0 cb.video-ak.cdn.spotifyx.com
+0.0.0.0 cc.video-ak.cdn.spotifyx.com
+0.0.0.0 cd.video-ak.cdn.spotifyx.com
+0.0.0.0 cdn.ravenjs.com
+0.0.0.0 cdr.comscore.com
+0.0.0.0 ce.video-ak.cdn.spotifyx.com
+0.0.0.0 cer.comscore.com
+0.0.0.0 cf.video-ak.cdn.spotifyx.com
+0.0.0.0 click.api.cp.tune.com
 0.0.0.0 clk1.vip.sc9.admob.com
 0.0.0.0 clk2.vip.sc9.admob.com
 0.0.0.0 clk3.vip.sc9.admob.com
+0.0.0.0 combine.urbanairship.com
+0.0.0.0 comscore.net
+0.0.0.0 comscore.org
+0.0.0.0 comscoredatagems.com
+0.0.0.0 comscoredatamine.com
+0.0.0.0 comscoredirect.net
+0.0.0.0 comscorenetworks.net
+0.0.0.0 configuration.ma.tune.com
+0.0.0.0 content.bitsontherun.
+0.0.0.0 content.bitsontherun.com
+0.0.0.0 core.insightexpressai.
+0.0.0.0 core.insightexpressai.com
+0.0.0.0 corp.tune.com
+0.0.0.0 cp.tune.com
 0.0.0.0 cpm.admob.com
 0.0.0.0 cpm1.admob.com
 0.0.0.0 cpm1.vip.sc9.admob.com
@@ -605,111 +470,177 @@ audio4-ak-spotifyx-com.akamaized.net
 0.0.0.0 cpm2.vip.sc9.admob.com
 0.0.0.0 cpm3.admob.com
 0.0.0.0 cpm3.vip.sc9.admob.com
+0.0.0.0 crashdump.ciqe-gslb.spotifyx.com
+0.0.0.0 crashdump.spotifyx.com
+0.0.0.0 crashlytics.163.com
+0.0.0.0 crashlytics.com
+0.0.0.0 crashlytics.twimg.com
+0.0.0.0 cs126.wpc.edgecastcdn.net
+0.0.0.0 cs126.wpc.teliasoneracdn.net
+0.0.0.0 cs283.wpc.teliasoneracdn.net
+0.0.0.0 cs934.wac.thetacdn.net
 0.0.0.0 d.admob.com
+0.0.0.0 d0.video-ak.cdn.spotifyx.com
+0.0.0.0 d1.video-ak.cdn.spotifyx.com
+0.0.0.0 d2.video-ak.cdn.spotifyx.com
+0.0.0.0 d2gi7ultltnc2u.cloudfront.
+0.0.0.0 d2gi7ultltnc2u.cloudfront.net
+0.0.0.0 d3.video-ak.cdn.spotifyx.com
+0.0.0.0 d3rt1990lpmkn.cloudfront.
+0.0.0.0 d4.video-ak.cdn.spotifyx.com
+0.0.0.0 d5.video-ak.cdn.spotifyx.com
+0.0.0.0 d6.video-ak.cdn.spotifyx.com
+0.0.0.0 d7.video-ak.cdn.spotifyx.com
+0.0.0.0 d8.video-ak.cdn.spotifyx.com
+0.0.0.0 d9.video-ak.cdn.spotifyx.com
+0.0.0.0 da.video-ak.cdn.spotifyx.com
+0.0.0.0 db.video-ak.cdn.spotifyx.com
+0.0.0.0 dbg52463.moatads.com
+0.0.0.0 dc.video-ak.cdn.spotifyx.com
+0.0.0.0 dd.video-ak.cdn.spotifyx.com
+0.0.0.0 de.video-ak.cdn.spotifyx.com
+0.0.0.0 decide.mixpanel.com
 0.0.0.0 dep.admob.com
+0.0.0.0 dev.lab.tune.com
 0.0.0.0 dev1.vip.sc9.admob.com
 0.0.0.0 developer.admob.com
+0.0.0.0 developers.intercom.io
+0.0.0.0 df.video-ak.cdn.spotifyx.com
+0.0.0.0 doubleclick.
+0.0.0.0 doubleclick.net
+0.0.0.0 ds.serving-sys.0.0.0.0 gads.pubmatic.c
+0.0.0.0 ds.serving-sys.com
 0.0.0.0 e.admob.com
+0.0.0.0 e.crashlytics.com
+0.0.0.0 e0.video-ak.cdn.spotifyx.com
+0.0.0.0 e1.video-ak.cdn.spotifyx.com
+0.0.0.0 e2.video-ak.cdn.spotifyx.com
+0.0.0.0 e3.video-ak.cdn.spotifyx.com
+0.0.0.0 e4.video-ak.cdn.spotifyx.com
+0.0.0.0 e5.video-ak.cdn.spotifyx.com
+0.0.0.0 e6.video-ak.cdn.spotifyx.com
+0.0.0.0 e7.video-ak.cdn.spotifyx.com
+0.0.0.0 e7876.dscg.akamaiedge.net
+0.0.0.0 e8.video-ak.cdn.spotifyx.com
+0.0.0.0 e8218.dscb1.akamaiedge.net
+0.0.0.0 e9.video-ak.cdn.spotifyx.com
+0.0.0.0 ea.video-ak.cdn.spotifyx.com
+0.0.0.0 eb.video-ak.cdn.spotifyx.com
+0.0.0.0 ec.video-ak.cdn.spotifyx.com
+0.0.0.0 ed.video-ak.cdn.spotifyx.com
+0.0.0.0 ee-in-f95.1.e100.net
+0.0.0.0 ee.video-ak.cdn.spotifyx.com
+0.0.0.0 ef.video-ak.cdn.spotifyx.com
+0.0.0.0 eip-ntt.audio-ak.spotifyx.com.akahost.net
+0.0.0.0 eip-onnet.audio-ak.spotifyx.com.akahost.net
+0.0.0.0 eip-tata.audio-ak.spotifyx.com.akahost.net
+0.0.0.0 ejs.moatads.com
 0.0.0.0 eng.admob.com
+0.0.0.0 engineering.intercom.io
+0.0.0.0 eu-gmtdmp.gd1.mookie1.com
+0.0.0.0 event.api.cp.tune.com
+0.0.0.0 event.spotxchange.com
+0.0.0.0 events.adjust.com
+0.0.0.0 evt.moatads.com
 0.0.0.0 f.admob.com
+0.0.0.0 f0.video-ak.cdn.spotifyx.com
+0.0.0.0 f1.video-ak.cdn.spotifyx.com
+0.0.0.0 f2.video-ak.cdn.spotifyx.com
+0.0.0.0 f3.video-ak.cdn.spotifyx.com
+0.0.0.0 f4.video-ak.cdn.spotifyx.com
+0.0.0.0 f5.video-ak.cdn.spotifyx.com
+0.0.0.0 f6.video-ak.cdn.spotifyx.com
+0.0.0.0 f7.video-ak.cdn.spotifyx.com
+0.0.0.0 f8.video-ak.cdn.spotifyx.com
+0.0.0.0 f9.video-ak.cdn.spotifyx.com
+0.0.0.0 fc.video-ak.cdn.spotifyx.com
+0.0.0.0 fd.video-ak.cdn.spotifyx.com
+0.0.0.0 fe.video-ak.cdn.spotifyx.com
+0.0.0.0 ff.video-ak.cdn.spotifyx.com
+0.0.0.0 fs.moatads.com
+0.0.0.0 funky.staging.intercom.io
 0.0.0.0 g.admob.com
+0.0.0.0 gads.pubmatic.com
+0.0.0.0 gads22000.pubmatic.com
 0.0.0.0 games.admob.com
+0.0.0.0 gcdn.2mdn.net
 0.0.0.0 ge-0-0-1-edge1.sc9.admob.com
 0.0.0.0 ge-0-0-43-crs1.sc9.admob.com
+0.0.0.0 geo.moatads.com
+0.0.0.0 googleads.g.doubleclick.
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 googleadservices.com
+0.0.0.0 gtssl2-ocsp.geotrust.
+0.0.0.0 gtssl2-ocsp.geotrust.com
 0.0.0.0 gw.admob.com
 0.0.0.0 h.admob.com
+0.0.0.0 heads-ak.spotifyx.com
+0.0.0.0 heads-ak.spotifyx.com.edgesuite.net
+0.0.0.0 heads-akp.spotifyx.com
+0.0.0.0 heads-akp.spotifyx.com.edgesuite.net
+0.0.0.0 heads-cf.spotifyx.com
+0.0.0.0 heads-fa.scdn.co
+0.0.0.0 heads-fa.spotifyx.com
+0.0.0.0 heads-fab.spotifyx.com
+0.0.0.0 heads-fac.spotifyx.com
+0.0.0.0 heads4-ak.spotifyx.com.edgesuite.net
+0.0.0.0 heads4-akp.spotifyx.com.edgesuite.net
 0.0.0.0 i.admob.com
+0.0.0.0 ia1.comscore.com
+0.0.0.0 ia2.comscore.com
+0.0.0.0 iad.comscore.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 im.comscore.com
+0.0.0.0 images.comscore.com
+0.0.0.0 imagesrv.adition.com
+0.0.0.0 intercom.io
+0.0.0.0 internal.intercom.io
+0.0.0.0 ipinfo.io
 0.0.0.0 j.admob.com
+0.0.0.0 jm.moatads.com
 0.0.0.0 jp.admob.com
+0.0.0.0 js.moatads.
+0.0.0.0 js.moatads.com
+0.0.0.0 json.moatads.com
+0.0.0.0 jsonp.moatads.com
 0.0.0.0 k.admob.com
 0.0.0.0 l.admob.com
+0.0.0.0 lab.tune.com
+0.0.0.0 labs.comscore.com
+0.0.0.0 labs.tune.com
+0.0.0.0 lb1-217593028.us-east-1.elb.amazonaws.com
+0.0.0.0 leadvisualdesigner.intercom.io
+0.0.0.0 links.iterable.com
+0.0.0.0 links.spotifyx.com
+0.0.0.0 live.adyen.com
+0.0.0.0 log.spotifyx.
+0.0.0.0 log.spotifyx.com
+0.0.0.0 log2.spotifyx.com
+0.0.0.0 logtest.moatads.com
 0.0.0.0 m.admob.com
+0.0.0.0 ma.tune.com
+0.0.0.0 mail2.comscore.com
+0.0.0.0 marketer.comscore.com
+0.0.0.0 media-match.
+0.0.0.0 media-match.com
+0.0.0.0 media-router-flurry7.prod.media.wg1.b.yahoo.com
 0.0.0.0 media.admob.com
 0.0.0.0 metrics.admob.com
+0.0.0.0 mixpanel.com
+0.0.0.0 mkt.tune.com
 0.0.0.0 mm.admob.com
 0.0.0.0 mm1.vip.sc1.admob.com
 0.0.0.0 mm1.vip.sc9.admob.com
 0.0.0.0 mm104.sc9.admob.com
 0.0.0.0 mmv.admob.com
-0.0.0.0 n.admob.com
-0.0.0.0 network.admob.com
-0.0.0.0 o.admob.com
-0.0.0.0 p.admob.com
-0.0.0.0 p1.vip.sc9.admob.com
-0.0.0.0 paix1.sc1.admob.com
-0.0.0.0 pixel.admobclick.com
-0.0.0.0 pt.admob.com
-0.0.0.0 q.admob.com
-0.0.0.0 r.admob.com
-0.0.0.0 r2.vip.sc9.admob.com
-0.0.0.0 rmd.admob.com
-0.0.0.0 s.admob.com
-0.0.0.0 sc1.admob.com
-0.0.0.0 sc9.admob.com
-0.0.0.0 smtp.admob.com
-0.0.0.0 smtp2.admob.com
-0.0.0.0 t.admob.com
-0.0.0.0 tap1.vip.sc9.admob.com
-0.0.0.0 tic1.vip.sc9.admob.com
-0.0.0.0 tracking.admobsphere.com
-0.0.0.0 tx102.sc9.admob.com
-0.0.0.0 tx103.sc9.admob.com
-0.0.0.0 u.admob.com
-0.0.0.0 ukr.admob.com
-0.0.0.0 v.admob.com
-0.0.0.0 vip.sc9.admob.com
-0.0.0.0 w.admob.com
-0.0.0.0 wap.admob.com
-0.0.0.0 waps.admob.com
-0.0.0.0 wendy.admob.com
-0.0.0.0 www.admob.com
-0.0.0.0 www.admob.com.akadns.net
-0.0.0.0 www1.vip.sc9.admob.com
-0.0.0.0 x.admob.com
-0.0.0.0 y.admob.com
-0.0.0.0 z.admob.com
-0.0.0.0 zhcn.admob.com
-# block akamai technologies (i doubt it will be used directly)
-0.0.0.0 a1294.w20.akamai.net
-0.0.0.0 a1843.g.akamai.net
-0.0.0.0 a50.g2.akamai.net
-0.0.0.0 bsams.eyeblaster.akadns.net
-0.0.0.0 e7876.dscg.akamaiedge.net
-0.0.0.0 e8218.dscb1.akamaiedge.net
-0.0.0.0 na.gmtdmp.com
-0.0.0.0 d2gi7ultltnc2u.cloudfront.net
-0.0.0.0 lb1-217593028.us-east-1.elb.amazonaws.com
-0.0.0.0 rp-lb-766892831.us-east-1.elb.amazonaws.com
-0.0.0.0 server-54-230-216-203.mrs50.r.cloudfront.net
-0.0.0.0 adserver.adtechus.com
-0.0.0.0 a.adk2x.com
-0.0.0.0 adnxs.com
-0.0.0.0 adnxs.comadplexmedia.adk2x.com
-0.0.0.0 ams1-ib.adnxs.com
-0.0.0.0 ib.adnxs.com
-0.0.0.0 live.adyen.com
-# block bounce exchange (anonymous)
-0.0.0.0 bounceexchange.com
-# block comscore analytics
-0.0.0.0 admetrix.comscore.com
-0.0.0.0 api.comscore.com
-0.0.0.0 aser.comscore.com
-0.0.0.0 cdr.comscore.com
-0.0.0.0 cer.comscore.com
-0.0.0.0 comscore.net
-0.0.0.0 comscore.org
-0.0.0.0 comscoredatagems.com
-0.0.0.0 comscoredatamine.com
-0.0.0.0 comscoredirect.net
-0.0.0.0 comscorenetworks.net
-0.0.0.0 ia1.comscore.com
-0.0.0.0 ia2.comscore.com
-0.0.0.0 iad.comscore.com
-0.0.0.0 im.comscore.com
-0.0.0.0 images.comscore.com
-0.0.0.0 labs.comscore.com
-0.0.0.0 mail2.comscore.com
-0.0.0.0 marketer.comscore.com
+0.0.0.0 moat.pxl.ace.advertising.com
+0.0.0.0 moatads.com
+0.0.0.0 moatads.com.edgekey.net
+0.0.0.0 mobile-sdk-api.intercom.io
+0.0.0.0 mp3ad.scdn.co
+0.0.0.0 multiverse.tune.com
+0.0.0.0 muster-sandbox.intercom.io
 0.0.0.0 mx0.comscore.com
 0.0.0.0 mx1.comscore.com
 0.0.0.0 mx2.comscore.com
@@ -717,617 +648,176 @@ audio4-ak-spotifyx-com.akamaized.net
 0.0.0.0 mycomscore.com
 0.0.0.0 mymetrix.comscore.com
 0.0.0.0 myresearch.comscore.com
-0.0.0.0 ord.comscore.com
-0.0.0.0 postbuy.comscore.com
-0.0.0.0 proclarity.comscore.com
-0.0.0.0 qat.comscore.com
-0.0.0.0 siterecruit.comscore.com
-0.0.0.0 svn.comscore.com
-0.0.0.0 www.comscore.com
-0.0.0.0 www.mycomscore.net
-# block crashlytics
-0.0.0.0 crashlytics.163.com
-0.0.0.0 crashlytics.com
-0.0.0.0 crashlytics.twimg.com
-0.0.0.0 e.crashlytics.com
-0.0.0.0 reports.crashlytics.com
-0.0.0.0 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
-0.0.0.0 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 combine.urbanairship.com
-0.0.0.0 ads-west-colo.adsymptotic.com
-0.0.0.0 gtssl2-ocsp.geotrust.com
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 adclick.g.doublecklick.net
-0.0.0.0 ade.googlesyndication.com
-0.0.0.0 adservice.google.com
-0.0.0.0 analytics.google.com
-0.0.0.0 doubleclick.net
-0.0.0.0 ee-in-f95.1.e100.net
-0.0.0.0 gcdn.2mdn.net
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 googleads4.g.doubleclick.net
-0.0.0.0 googleadservices.com
-0.0.0.0 s0.2mdn.net
-0.0.0.0 pagead.l.doubleclick.net
-0.0.0.0 pagead-googlehosted.l.google.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 pagead46.l.doubleclick.net
-0.0.0.0 partner.googleadservices.com
-0.0.0.0 partnerad.l.doubleclick.net
-0.0.0.0 pubads.g.doubleclick.net
-0.0.0.0 s0-2mdn-net.l.google.com
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 video-ad-stats.googlesyndication.com
-0.0.0.0 www.googleadservices.com
-0.0.0.0 www.googletagservices.com
-0.0.0.0 anycast.pixel.adsafeprotected.com
-0.0.0.0 api-iam.intercom.io
-0.0.0.0 api-ping.intercom.io
-0.0.0.0 api.intercom.io
-0.0.0.0 developers.intercom.io
-0.0.0.0 engineering.intercom.io
-0.0.0.0 funky.staging.intercom.io
-0.0.0.0 intercom.io
-0.0.0.0 internal.intercom.io
-0.0.0.0 leadvisualdesigner.intercom.io
-0.0.0.0 mobile-sdk-api.intercom.io
-0.0.0.0 muster-sandbox.intercom.io
+0.0.0.0 n.admob.com
+0.0.0.0 na.gmtdmp.com
+0.0.0.0 network.admob.com
 0.0.0.0 nexus-testing.intercom.io
 0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 nexus.intercom.io
-0.0.0.0 orientation.internal.intercom.io
-0.0.0.0 status.intercom.io
-0.0.0.0 store.intercom.io
-0.0.0.0 terraform-modules-test.intercom.io
-0.0.0.0 via.intercom.io
-0.0.0.0 w.intercom.io
-0.0.0.0 widget.intercom.io
-0.0.0.0 woody.intercom.io
-0.0.0.0 www.intercom.io
-0.0.0.0 core.insightexpressai.com
-0.0.0.0 track.leanlab.co
-0.0.0.0 content.bitsontherun.com
-0.0.0.0 v.jwpcdn.com
-0.0.0.0 eu-gmtdmp.gd1.mookie1.com
-0.0.0.0 media-match.com
-0.0.0.0 ab.tune.com
-0.0.0.0 academy.tune.com
-0.0.0.0 beta.tune.com
-0.0.0.0 click.api.cp.tune.com
-0.0.0.0 configuration.ma.tune.com
-0.0.0.0 corp.tune.com
-0.0.0.0 cp.tune.com
-0.0.0.0 dev.lab.tune.com
-0.0.0.0 event.api.cp.tune.com
-0.0.0.0 lab.tune.com
-0.0.0.0 labs.tune.com
-0.0.0.0 ma.tune.com
-0.0.0.0 mkt.tune.com
-0.0.0.0 multiverse.tune.com
+0.0.0.0 o.admob.com
+0.0.0.0 omaze.
+0.0.0.0 omaze.com
 0.0.0.0 ops-prod.us-west-2.k8s.ops.tune.com
-0.0.0.0 playlist.ma.tune.com
-0.0.0.0 request.api.cp.tune.com
-0.0.0.0 stage.tune.com
-0.0.0.0 support.tune.com
-0.0.0.0 tune.com
-0.0.0.0 ui.cp.tune.com
-0.0.0.0 updates.tune.com
-0.0.0.0 www.cp.tune.com
-0.0.0.0 www.ui.cp.tune.com
-0.0.0.0 api.mixpanel.com
-0.0.0.0 decide.mixpanel.com
-0.0.0.0 mixpanel.com
-0.0.0.0 switchboard.mixpanel.com
-0.0.0.0 www.mixpanel.com
-0.0.0.0 adgrx.moatads.com
-0.0.0.0 afs.moatads.com
-0.0.0.0 apx.moatads.com
-0.0.0.0 bd.moatads.com
-0.0.0.0 c-evt.moatads.com
-0.0.0.0 dbg52463.moatads.com
-0.0.0.0 ejs.moatads.com
-0.0.0.0 evt.moatads.com
-0.0.0.0 fs.moatads.com
-0.0.0.0 geo.moatads.com
-0.0.0.0 jm.moatads.com
-0.0.0.0 js.moatads.com
-0.0.0.0 json.moatads.com
-0.0.0.0 jsonp.moatads.com
-0.0.0.0 logtest.moatads.com
-0.0.0.0 moat.pxl.ace.advertising.com
-0.0.0.0 moatads.com
-0.0.0.0 moatads.com.edgekey.net
+0.0.0.0 ord.comscore.com
+0.0.0.0 orientation.internal.intercom.io
+0.0.0.0 p.admob.com
+0.0.0.0 p1.vip.sc9.admob.com
+0.0.0.0 pagead-googlehosted.l.google.com
+0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead46.l.doubleclick.
+0.0.0.0 pagead46.l.doubleclick.net
+0.0.0.0 paix1.sc1.admob.com
+0.0.0.0 partner-service-testing.spotifyx.com
+0.0.0.0 partner-service.spotifyx.com
+0.0.0.0 partner.googleadservices.
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 partnerad.l.doubleclick.net
+0.0.0.0 payment-callback.spotifyx.com
+0.0.0.0 pci.spotifyx.com
+0.0.0.0 pixel.admobclick.com
 0.0.0.0 pixel.moatads.com
+0.0.0.0 pixel.spotifyx.com
+0.0.0.0 playlist.ma.tune.com
 0.0.0.0 pool3.moatads.com
 0.0.0.0 pool5.moatads.com
 0.0.0.0 post.update.moatads.com
+0.0.0.0 postbuy.comscore.com
+0.0.0.0 proclarity.comscore.com
+0.0.0.0 prod.spotifyx-heads.map.fastlylb.net
+0.0.0.0 prod.spotifyx.map.fastly.net
+0.0.0.0 prod.spotifyx.map.fastlylb.net
+0.0.0.0 pt.admob.com
+0.0.0.0 pubads.g.doubleclick.
+0.0.0.0 pubads.g.doubleclick.net
 0.0.0.0 px.moatads.com
+0.0.0.0 q.admob.com
+0.0.0.0 qat.comscore.com
 0.0.0.0 quantcast584928381.s.moatpixel.com
 0.0.0.0 r.254a.comjs.moatads.com
+0.0.0.0 r.admob.com
+0.0.0.0 r2.vip.sc9.admob.com
+0.0.0.0 redirector.gvt1.
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 request.api.cp.tune.com
+0.0.0.0 rmd.admob.com
+0.0.0.0 rp-lb-766892831.us-east-1.elb.amazonaws.com
 0.0.0.0 s-jsonp.moatads.com
+0.0.0.0 s.admob.com
 0.0.0.0 s.moatads.com
 0.0.0.0 s.update.moatads.com
+0.0.0.0 s0-2mdn-net.l.google.com
+0.0.0.0 s0.2mdn.
+0.0.0.0 s0.2mdn.net
+0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 sb.voicefive.com
+0.0.0.0 sc1.admob.com
+0.0.0.0 sc9.admob.com
+0.0.0.0 search.spotxchange.com
+0.0.0.0 secure-gg.imrworldwide.com
+0.0.0.0 securepubads.g.doubleclick.n
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 seen-on-screen.thewhizmarketing.com
 0.0.0.0 sejs.moatads.com
+0.0.0.0 server-54-230-216-203.mrs50.r.cloudfront.net
+0.0.0.0 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
+0.0.0.0 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 showads33000.pubmatic.com
+0.0.0.0 siterecruit.comscore.com
+0.0.0.0 smtp.admob.com
+0.0.0.0 smtp2.admob.com
+0.0.0.0 spclient.wg.spotifyx.com
+0.0.0.0 spotxchange.com
+0.0.0.0 stage.tune.com
+0.0.0.0 star-z-mini.c10r.facebook.com
+0.0.0.0 status.intercom.io
+0.0.0.0 store.intercom.io
+0.0.0.0 support.tune.com
 0.0.0.0 svast.moatads.com
 0.0.0.0 svastx.moatads.com
+0.0.0.0 svn.comscore.com
+0.0.0.0 switchboard.mixpanel.com
+0.0.0.0 sync.search.spotxchange.com
+0.0.0.0 t.admob.com
+0.0.0.0 t.myvisualiq.net
 0.0.0.0 t.update.moatads.com
+0.0.0.0 tap1.vip.sc9.admob.com
+0.0.0.0 terraform-modules-test.intercom.io
+0.0.0.0 tic1.vip.sc9.admob.com
+0.0.0.0 tpc.googlesyndication.
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 track.leanlab.co
+0.0.0.0 tracking.admobsphere.com
 0.0.0.0 tribpubdfp745347008913.s.moatpixel.com
+0.0.0.0 tune.com
+0.0.0.0 tx102.sc9.admob.com
+0.0.0.0 tx103.sc9.admob.com
+0.0.0.0 u.admob.com
 0.0.0.0 u.moatads.com
+0.0.0.0 udm.scorecardresearch.com
+0.0.0.0 ui.cp.tune.com
+0.0.0.0 ukr.admob.com
+0.0.0.0 ulink.adjust.com
 0.0.0.0 update.moatads.com
+0.0.0.0 updates.tune.com
+0.0.0.0 upgrade.scdn.co # optional
+0.0.0.0 upgrade.spotifyx.com # optional
 0.0.0.0 upv4.moatads.com
+0.0.0.0 v.admob.com
+0.0.0.0 v.jwpcdn.
+0.0.0.0 v.jwpcdn.com
 0.0.0.0 v3.moatads.com
 0.0.0.0 v4.moatads.com
 0.0.0.0 vast.moatads.com
 0.0.0.0 vastx.moatads.com
+0.0.0.0 via.intercom.io
+0.0.0.0 video-ad-stats.googlesyndication.
+0.0.0.0 video-ad-stats.googlesyndication.com
+0.0.0.0 video-fa-b.cdn.spotifyx.com
+0.0.0.0 video-fa.cdn.spotifyx.com
+0.0.0.0 video-fa.scdn.co
+0.0.0.0 view.adjust.com
+0.0.0.0 vip.sc9.admob.com
 0.0.0.0 vpb0.moatads.com
+0.0.0.0 vt.myvisualiq.net
 0.0.0.0 vu.moatads.com
+0.0.0.0 w.admob.com
+0.0.0.0 w.intercom.io
+0.0.0.0 wap.admob.com
+0.0.0.0 waps.admob.com
+0.0.0.0 weblb-wg.gslb.spotifyx.
+0.0.0.0 wendy.admob.com
+0.0.0.0 widget.intercom.io
 0.0.0.0 wildcard.moatads.com.edgekey.net
+0.0.0.0 woody.intercom.io
+0.0.0.0 www.admob.com
+0.0.0.0 www.admob.com.akadns.net
+0.0.0.0 www.comscore.com
+0.0.0.0 www.cp.tune.com
+0.0.0.0 www.googleadservices.
+0.0.0.0 www.googleadservices.com
+0.0.0.0 www.googletagservices.
+0.0.0.0 www.googletagservices.com
+0.0.0.0 www.intercom.io
+0.0.0.0 www.mixpanel.com
 0.0.0.0 www.moatads.com
+0.0.0.0 www.mycomscore.net
+0.0.0.0 www.omaze.com
+0.0.0.0 www.spotx.tv
+0.0.0.0 www.ui.cp.tune.com
 0.0.0.0 www.upv4.moatads.com
+0.0.0.0 www1.vip.sc9.admob.com
+0.0.0.0 x.admob.com
+0.0.0.0 y.admob.com
 0.0.0.0 y.moatads.com
 0.0.0.0 yj.moatads.com
 0.0.0.0 yt.moatads.com
 0.0.0.0 yts.moatads.com
+0.0.0.0 z.admob.com
 0.0.0.0 z.moatads.com
-0.0.0.0 t.myvisualiq.net
-0.0.0.0 vt.myvisualiq.net
-0.0.0.0 omaze.com
-0.0.0.0 www.omaze.com
-0.0.0.0 ads.pubmatic.com
-0.0.0.0 gads.pubmatic.com
-0.0.0.0 gads22000.pubmatic.com
-0.0.0.0 showads33000.pubmatic.com
-0.0.0.0 b.scorecardresearch.com
-0.0.0.0 sb.scorecardresearch.com
-0.0.0.0 udm.scorecardresearch.com
-0.0.0.0 bs.serving-sys.com
-0.0.0.0 ds.serving-sys.com
-0.0.0.0 cs126.wpc.teliasoneracdn.net
-0.0.0.0 cs283.wpc.teliasoneracdn.net
-0.0.0.0 seen-on-screen.thewhizmarketing.com
-0.0.0.0 cs126.wpc.edgecastcdn.net
-0.0.0.0 cs934.wac.thetacdn.net
-0.0.0.0 ar.voicefive.com
-0.0.0.0 sb.voicefive.com
-0.0.0.0 ads.flurry.com
-0.0.0.0 media-router-flurry7.prod.media.wg1.b.yahoo.com
-0.0.0.0 api.zwizzarmyknife.com
-spotifyx_Server_List
-##################################################
-#    BELOW CURRENTLY EXISTENT spotifyx SERVERS    #
-==================================================
-spotifyx PRIVATE NETWORK GLOBAL (STOCKHOLM/ASHBURN)
-# spotifyx network servers (is this the heart?)
-ssoproxy.gslb.spotifyx.com # single sign-on proxy server / load balancer
-sto-dealer.spotifyx.com # links to sto.weblb-wg.dual-gslb.spotifyx.com
-sto-spclient.spotifyx.com # links to sto.weblb-wg.dual-gslb.spotifyx.com
-sto.weblb-wg.dual-gslb.spotifyx.com # load balancer / gateway
-sto.weblb-wg.gslb.spotifyx.com # load balancer / gateway
-sto3-idp-a1.sto3.spotifyx.com # identity provider (saml)
-sto3-idp-a2.sto3.spotifyx.com # identity provider (saml)
-sto3-inbound-a1.sto3.spotifyx.com # inbound (requests)
-sto3-inbound-a2.sto3.spotifyx.com # inbound (requests)
-sto3-inboundvideo-a1.sto3.spotifyx.com # inbound video
-sto3-inboundvideo-a2.sto3.spotifyx.com # inbound video
-sto3-jumphost-a1.sto3.spotifyx.com # jumphost (administrative host for dmz and private network)
-sto3-outbound-a1.sto3.spotifyx.com # outbound (response)
-sto3-outbound-a3.sto3.spotifyx.com # outbound (response)
-sto3-ssoproxy-a1.sto3.spotifyx.net # single sign-on proxy server
-# spotifyx network (vpn)
-vpn-ash1-1.ash.spotifyx.com # vpn to ashburn
-vpn-ash1-1.ash1.spotifyx.com # vpn to ashburn
-# spotifyx global network servers (router)
-# equinix carpathia datacenter (physical location unknown)
-rt-vrrp-pub.ash.spotifyx.com # router, virtual router redundancy protocol
-rt-vrrp-pub.ash1.spotifyx.com # router, virtual router redundancy protocol
-# spotifyx network server (jump hosts)
-ash-jumphost-a1.ash.spotifyx.com # jumphost (administrative host for dmz and private network)
-ash-jumphost-a1.ash1.spotifyx.com # jumphost (administrative host for dmz and private network)
-# spotifyx network load balancer
-ash-dealer.spotifyx.com # load balancer / reverse proxy, links to ash.weblb-wg.dual-gslb.spotifyx.com
-ash.weblb-wg.dual-gslb.spotifyx.com # load balancer / reverse proxy
-ash.weblb-wg.gslb.spotifyx.com # load balancer / reverse proxy
-# spotifyx network servers (proxies)
-ash1-msproxy-a1.ash.spotifyx.com # proxy server
-ash1-msproxy-a1.ash1.spotifyx.com # proxy server
-ash1-msproxy-a2.ash.spotifyx.com # proxy server
-ash1-msproxy-a2.ash1.spotifyx.com # proxy server
-ash1-msproxy-a3.ash.spotifyx.com # proxy server
-ash1-msproxy-a3.ash1.spotifyx.com # proxy server
-ash1-msproxy-a4.ash.spotifyx.com # proxy server
-ash1-msproxy-a4.ash1.spotifyx.com # proxy server
-# spotifyx network resolver
-ash1-apresolve-a1.ash.spotifyx.com # resolver
-ash1-apresolve-a1.ash1.spotifyx.com # resolver
-ash1-apresolve-a2.ash.spotifyx.com # resolver
-ash1-apresolve-a2.ash1.spotifyx.com # resolver
-ash1-apresolve-a3.ash.spotifyx.com # resolver
-ash1-apresolve-a3.ash1.spotifyx.com # resolver
-# spotifyx identity servers
-ash2-idp-a1.ash2.spotifyx.com # identity provider (saml)
-ash2-idp-a2.ash2.spotifyx.com # identity provider (saml)
-idp.gslb.spotifyx.com # identity provider load balancer (saml), links to ash2-idp-a1.ash2.spotifyx.com
-# spotifyx (internal) data servers (data servers)
-ainara.ash.spotifyx.com # data server
-ainara.ash1.spotifyx.com # data server
-alesti.ash.spotifyx.com # data server
-alesti.ash1.spotifyx.com # data server
-andromache.ash.spotifyx.com # data server
-andromache.ash1.spotifyx.com # data server
-anemone.ash.spotifyx.com # data server
-anemone.ash1.spotifyx.com # data server
-arantxa.ash.spotifyx.com # data server
-arantxa.ash1.spotifyx.com # data server
-cadace.ash1.spotifyx.com # data server
-clemmie.ash.spotifyx.com # data server
-clemmie.ash1.spotifyx.com # data server
-core-ash-001.ash.spotifyx.com # data server
-core-ash-001.ash1.spotifyx.com # data server
-daryl.ash.spotifyx.com # data server
-daryl.ash1.spotifyx.com # data server
-dayana.ash.spotifyx.com # data server
-dayana.ash1.spotifyx.com # data server
-deborah.ash.spotifyx.com # data server
-deborah.ash1.spotifyx.com # data server
-felice.ash.spotifyx.com # data server
-felice.ash1.spotifyx.com # data server
-hanane.ash.spotifyx.com # data server
-hanane.ash1.spotifyx.com # data server
-herlinda.ash.spotifyx.com # data server
-herlinda.ash1.spotifyx.com # data server
-ilisapesi.ash.spotifyx.com # data server
-ilisapesi.ash1.spotifyx.com # data server
-iria.ash.spotifyx.com # data server
-iria.ash1.spotifyx.com # data server
-kajal.ash.spotifyx.com # data server
-kajal.ash1.spotifyx.com # data server
-kenyatta.ash.spotifyx.com # data server
-kenyatta.ash1.spotifyx.com # data server
-kismet.ash.spotifyx.com # data server
-kismet.ash1.spotifyx.com # data server
-laurinda.ash.spotifyx.com # data server
-laurinda.ash1.spotifyx.com # data server
-lotta.ash.spotifyx.com # data server
-lotta.ash1.spotifyx.com # data server
-lysandra.ash.spotifyx.com # data server
-lysandra.ash1.spotifyx.com # data server
-nediva.ash.spotifyx.com # data server
-nediva.ash1.spotifyx.com # data server
-neeharika.ash.spotifyx.com # data server
-neeharika.ash1.spotifyx.com # data server
-nieves.ash.spotifyx.com # data server
-nieves.ash1.spotifyx.com # data server
-rosevear.ash.spotifyx.com # data server
-rosevear.ash1.spotifyx.com # data server
-samatha.ash.spotifyx.com # data server
-samatha.ash1.spotifyx.com # data server
-shulamit.ash.spotifyx.com # data server
-shulamit.ash1.spotifyx.com # data server
-shradhdha.ash.spotifyx.com # data server
-shradhdha.ash1.spotifyx.com # data server
-stacia.ash.spotifyx.com # data server
-stacia.ash1.spotifyx.com # data server
-tathra.ash.spotifyx.com # data server
-tathra.ash1.spotifyx.com # data server
-======================
-spotifyx PUBLIC NETWORK
-# spotifyx servers (api)
-api.spotifyx.com # default api
-api-canary.wg.spotifyx.com # beta api, links to api.spotifyx.com
-api-partner.spotifyx.com # partner api, like chromecast
-api-partners-canary.wg.spotifyx.com # links to weblb-wg.dual-gslb.spotifyx.com
-api-tv.spotifyx.com # tv api
-api-tv-canary.wg.spotifyx.com # links to weblb-wg.dual-gslb.spotifyx.com
-# spotifyx servers (internal or partner use, some uses google cloud)
-adlab.spotifyx.com # advertisement lab
-adstudio.spotifyx.com # ad studio, links to weblb-wg.dual-gslb.spotifyx.com
-alien.dual-gslb.spotifyx.com # web interface to authenticate to proxy using google accounts
-alien.spotifyx.net # same as above
-artists.spotifyx.com # the artist portal, links to weblb-wg.dual-gslb.spotifyx.com 
- # see https://sites.google.com/spotifyx.com/spotifyxhub/
-artist-identity-image.spotifyx.com # looks like id info, links to weblb-wg.dual-gslb.spotifyx.com
-artistinsights-realtime.spotifyx.com # stats for artists, links to weblb-wg.dual-gslb.spotifyx.com 
-artistyearinmusic.spotifyx.com # stats for artists, links to weblb-wg.dual-gslb.spotifyx.com 
-auditdesk-server.spotifyx.com # audit management, links to lon.weblb-wg.dual-gslb.spotifyx.com
-bundling-integration.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
-cal.spotifyx.com # spotifyx callender, authenticates with google accounts (cname ghs.google.com)
-cms.spotifyx.com # spotifyx catalog manager, links to lon.weblb-wg.dual-gslb.spotifyx.com (london)
- # https://sites.google.com/spotifyx.com/spotifyxhub/resources/spotifyx-catalog-manager-scatman
-community-stage.spotifyx.com # spotifyx community login for artists
-docs.spotifyx.com # spotifyx documents server (google drive, cname ghs.google.com, google hosting services)
-cws.spotifyx.com # misc (maybe contingent workforce strategies)
-cws2.spotifyx.com # misc (maybe contingent workforce strategies)
-datawarehouse.spotifyx.com # data warehouse
-files.spotifyx.com # ?, links to www-001.lon.spotifyx.com
-groups.spotifyx.com # google groups (internal discussion, cname ghs.google.com)
-mail.spotifyx.com # google mail (ghs.google.com)
-mobile.spotifyx.com # ?, links to mobile-001.lon.spotifyx.com
-partners.spotifyx.com # links to lon.weblb-wg.dual-gslb.spotifyx.com
-partnerportal.spotifyx.com # partner portal (docs etc), cname ghs.googlehosted.com (google sites)
-showsportal.spotifyx.com # podcasts, redirects to https://podcasters.spotifyx.com
-slackin.spotifyx.com # foss slack community, you are able to create an account (amazon server)
-wab.spotifyx.com # ?, links to mobile-001.lon.spotifyx.com
-# spotifyx servers (statistics & tracking)
-adeventtracker.spotifyx.com # tracks advertisments triggered and played (should be blocked)
-analytics.spotifyx.com # google analytics (should be blocked just like analytics.google.com)
-# spotifyx servers (bynder, agile marketing)
-assets.spotifyx.com # marketing assets (should be blocked)
-# spotifyx server (akamai technologies)
-play.spotifyx.edgekey.net # spotifyx web player (cloud), redirects to https://open.spotifyx.com/
-# spotifyx servers (amazon cloudfront)
-repository.spotifyx.com # repo, links to d2czmavkeme1ql.cloudfront.net
-# spotifyx servers (automattic, wordpress)
-brandsnews.spotifyx.com # redirects to spotifyxforbrands.com (hosted by amazon)
-hrblog.spotifyx.com # human resources blog
-insights.spotifyx.com # insights of global use, links to vip-lb.wordpress.com
-labs.spotifyx.community # spotifyx labs
-news.spotifyx.com # news, redirects to newsroom.spotifyx.com, links to vip-lb.wordpress.com
-press.spotifyx.com # press, redirects to newsroom.spotifyx.com, links to vip-lb.wordpress.com
-# spotifyx server (fastly network)
-adstudio-assets.scdn.co # ad studio assets, links to beta.spotifyx.map.fastly.net
-creativeservice-production.scdn.co # something related to production of ads, links to beta.spotifyx.map.fastly.net
-developer.spotifyx.com # developer portal, links to developer.spotifyx.map.fastly.net
-developers.spotifyx.com # developer portal, links to developer.spotifyx.map.fastly.net
-sp-bootstrap.global.ssl.fastly.net # spotifyx bootstrap framework (html, css, js)
-# spotifyx servers (interoute communications)
-live.spotifyx.com # ?
-# spotifyx servers (lithium)
-community.spotifyx.com # community forum
-# spotifyx server (merit networks, google cloud)
-useradmin.spotifyx.com # mellon user administration (ann arbor)
-# spotifyx servers (misc)
-devaccount.spotifyx.com # developer portal, links to developer.spotifyx.com
-dev.spotifyx.com # developer portal, links to developer.spotifyx.com
-devnews.spotifyx.com # redirects to https://developer.spotifyx.com/community/news/
-img.spotifyx.com # images, links to lon.weblb-wg.dual-gslb.spotifyx.com
-login-signup.scdn.co # login and signup
-lon.weblb-wg.dual-gslb.spotifyx.com # load balancer / reverse proxy (london)
-lon.weblb-wg.gslb.spotifyx.com # load balancer / reverse proxy (london)
-mobile-001.lon.spotifyx.com # ?
-www-001.lon.spotifyx.com # ?
-# spotifyx servers (sendgrid)
-o1.em.spotifyx.com # mail (old server, denver)
-wl.spotifyx.com # old web site
-wl.support.spotifyx.com # old support site
-# spotifyx servers (steadfast networks)
-o11.em.spotifyx.com # mail (old server, denver)
-=====================
-spotifyx MUSIC NETWORK
-# spotifyx servers (fastly network, serves the data, geo dependent)
-aci.scdn.co # account images?, links to beta.spotifyx.map.fastly.net
-actman.scdn.co # not sure, links to beta.spotifyx.map.fastly.net
-artistheader.scdn.co # artists header images, links to beta.spotifyx.map.fastly.net
-audio-fa.scdn.co # audio used by chromecast, links to beta.spotifyx.map.fastly.net
-audio-fa.spotifyx.com # audio, links to beta.spotifyx.map.fastly.net
-audio-fab.spotifyx.com # audio, links to beta.spotifyx.map.fastly.net
-audio-fac.spotifyx.com # audio, links to beta.spotifyx.map.fastly.net
-beta.spotifyx.map.fastly.net # ip geo dependent (should be blocked)
-cache.spotifyx.com # cache
-car-dev.scdn.co # spotifyx car mode (development), links to beta.spotifyx.map.fastly.net
-car-prod.scdn.co # spotifyx car mode, links to beta.spotifyx.map.fastly.net
-car-staging.scdn.co # spotifyx car mode, links to beta.spotifyx.map.fastly.net
-cast.scdn.co # interface used by chromecast (partner devices), links to beta.spotifyx.map.fastly.net
-charts-images.scdn.co # charts images, links to beta.spotifyx.map.fastly.net
-concerts-hometile-images.scdn.co # windows concert images, links to beta.spotifyx.map.fastly.net
-concerts.scdn.co # concert images (or info), links to beta.spotifyx.map.fastly.net
-crusader.scdn.co # ?, links to beta.spotifyx.map.fastly.net
-daily-mix.scdn.co # daily mixes (less restricted), links to beta.spotifyx.map.fastly.net
-developer.spotifyx.map.fastly.net # developer portal, links to different load balancers in london
-download.scdn.co # track downloads, links to beta.spotifyx.map.fastly.net
-download.spotifyx.com # track downloads, links to download.spotifyx.map.fastly.net
-download.spotifyx.map.fastly.net # track downloads
-go.scdn.co # ?, links to beta.spotifyx.map.fastly.net
-i.scdn.co # images, links to beta.spotifyx.map.fastly.net
-images.spotifyx.com # spotifyx's own images (also ads), links to beta.spotifyx.map.fastly.net
-lineup-images.scdn.co # concert and event images, links to beta.spotifyx.map.fastly.net
-live-tile-images.scdn.co # windows start menu images, links to beta.spotifyx.map.fastly.net
-merch-img.scdn.co # merchandise images (not ads), links to beta.spotifyx.map.fastly.net
-messenger-webview.scdn.co # looks like share function, links to beta.spotifyx.map.fastly.net
-mosaic.scdn.co # mosaic images (playlists), links to beta.spotifyx.map.fastly.net
-o.scdn.co # album images, links to beta.spotifyx.map.fastly.net
-open.scdn.co # cdn equivalent of open.spotifyx.com, links to beta.spotifyx.map.fastly.net 
-p.scdn.co # preview tracks (30 seconds), links to beta.spotifyx.map.fastly.net
-pl.scdn.co # playlists, links to beta.spotifyx.map.fastly.net
-prod.spotifyx-heads.map.fastlylb.net # ip geo dependent, links to beta.spotifyx.map.fastly.net (should be blocked)
-prod.spotifyx.map.fastly.net # ip geo dependent, links to beta.spotifyx.map.fastly.net (should be blocked)
-prod.spotifyx.map.fastlylb.net # ip geo dependent, links to beta.spotifyx.map.fastly.net (should be blocked)
-profile-images.scdn.co # user profile images, links to beta.spotifyx.map.fastly.net
-quicksilver.scdn.co # quicksilver card upsell?, beta.spotifyx.map.fastly.net
-r.scdn.co # images, links to beta.spotifyx.map.fastly.net
-scannables.scdn.co # spotifyx codes (qr like), links to beta.spotifyx.map.fastly.net
-seektables.scdn.co # patented search of multimedia segments (fetching), links to beta.spotifyx.map.fastly.net
-spritemaps.cdn.spotifyx.com # ?, links to beta.spotifyx.map.fastly.net
-spritemaps.scdn.co # ?, links to beta.spotifyx.map.fastly.net
-spotifyx.map.fastly.net # ip geo dependent
-squadcdn.spotifyx.map.fastly.net # jsdelivr CDN?
-support2.scdn.co # spotifyx support, links to beta.spotifyx.map.fastly.net
-thisis-images.scdn.co # this is playlists images, links to beta.spotifyx.map.fastly.net
-t.scdn.co # images, links to beta.spotifyx.map.fastly.net
-tv.scdn.co # images for smart tv, links to beta.spotifyx.map.fastly.net
-tv-cast-prod.scdn.co # interface for smart tv (series?), links to beta.spotifyx.map.fastly.net
-tv-static.scdn.co # some static images for smart tv, links to beta.spotifyx.map.fastly.net
-u.scdn.co # images, links to beta.spotifyx.map.fastly.net, maybe upsell
-upgrade.scdn.co # upgrade spotifyx, links to beta.spotifyx.map.fastly.net (could block)
-upgrade.spotifyx.com # upgrade, links to download.spotifyx.map.fastly.net (could block)
-upsell.scdn.co # upgrade ads (should be blocked), links to beta.spotifyx.map.fastly.net
-video-fa.scdn.co # video, links to beta.spotifyx.map.fastly.net (should be blocked)
-video-fa.cdn.spotifyx.com # video, links to beta.spotifyx.map.fastly.net (should be blocked)
-video-fa-b.cdn.spotifyx.com # video, links to beta.spotifyx.map.fastly.net (should be blocked)
-welcome-images.scdn.co # images at first login?, links to beta.spotifyx.map.fastly.net
-www.scdn.co # home page images etc, links to beta.spotifyx.map.fastly.net
-# spotifyx servers (google cloud, does the routing, geo dependent)
-accounts.spotifyx.com # your account page, links to weblb-wg.dual-gslb.spotifyx.com
-ap.gslb.spotifyx.com # access point (load balancer) / reverse dns
-ap.spotifyx.com # access point (load balancer), links to ap.gslb.spotifyx.com
-apresolve.spotifyx.com # aplist resolver, links to weblb-wg.dual-gslb.spotifyx.com, used by chromecast
-audio-gc.scdn.co # audio, links to 4.75.201.35.bc.googleusercontent.com
-audio-gc.spotifyx.com # audio, links to 4.75.201.35.bc.googleusercontent.com
-axp.spotifyx.com # audio expo site, links to weblb-wg.dual-gslb.spotifyx.com
-beta.spotifyx.com # redirects to home page, links to weblb-wg.dual-gslb.spotifyx.com
-blog.spotifyx.com # blog that does not exist, links to weblb-wg.dual-gslb.spotifyx.com
-bloodhound.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
-creator.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
-creator-canary.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
-dealer.spotifyx.com # secure websocket (full duplex), links to global-dealer-ssl.spotifyx.com
-demo-builder.spotifyx.com # ?, links to sjc.weblb-wg.dual-gslb.spotifyx.com
-desktop.spotifyx.com # desktop app connection to load balancer, links to weblb-wg.dual-gslb.spotifyx.com
-embed.spotifyx.com # embedding, links to weblb-wg.dual-gslb.spotifyx.com
-esdk-ffl.spotifyx.com # (extended) sdk, links to weblb-wg.dual-gslb.spotifyx.com
-exp.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
-exp-canary.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
-facebook-callback.spotifyx.com # facebook authentication, links to weblb-wg.dual-gslb.spotifyx.com (there is the api)
-gae-dealer.spotifyx.com # redirector asia (singapore), links to 86.240.199.104.bc.googleusercontent.com
-gae-dealer-ssl.spotifyx.com # redirector asia (singapore) links to 46.224.186.35.bc.googleusercontent.com
-gae-spclient.spotifyx.com # redirector asia (singapore), links to 211.240.199.104.bc.googleusercontent.com
-gae2-accesspoint-b-kvql.ap.spotifyx.com # accesspoint asia (singapore), links to 219.240.199.104.bc.googleusercontent.com
-gae2-accesspoint-b-m3zs.ap.spotifyx.com # accesspoint asia (singapore), links to 187.241.199.104.bc.googleusercontent.com
-gae2-accesspoint-b-qgbk.ap.spotifyx.com # accesspoint asia (singapore), links to 172.241.199.104.bc.googleusercontent.com
-gae2-accesspoint-b-zk3b.ap.spotifyx.com # accesspoint asia (singapore), links to 183.241.199.104.bc.googleusercontent.com
-gae2.ap.spotifyx.com # accesspoint asia (singapore), links to 237.240.199.104.bc.googleusercontent.com
-gew-dealer.spotifyx.com # redirector europe (mabye eemshaven), links to 45.224.186.35.bc.googleusercontent.com
-gew-dealer-ssl.spotifyx.com # redirector europe (mabye eemshaven) links to 45.224.186.35.bc.googleusercontent.com
-gew-spclient.spotifyx.com # redirector europe (mabye eemshaven) links to 62.224.186.35.bc.googleusercontent.com
-gew1-accesspoint-b-0t5h.ap.spotifyx.com # accesspoint europe, links to 47.65.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-3vgg.ap.spotifyx.com # accesspoint europe, links to 16.65.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-4nz6.ap.spotifyx.com # accesspoint europe, links to 30.64.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-ch6f.ap.spotifyx.com # accesspoint europe, links to 25.64.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-mb1b.ap.spotifyx.com # accesspoint europe, links to 139.64.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-n2b0.ap.spotifyx.com # accesspoint europe, links to 173.64.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-p520.ap.spotifyx.com # accesspoint europe, links to 126.64.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-rzpq.ap.spotifyx.com # accesspoint europe, links to 210.65.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-wfcl.ap.spotifyx.com # accesspoint europe, links to 206.65.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-wjjm.ap.spotifyx.com # accesspoint europe, links to 82.65.199.104.bc.googleusercontent.com
-gew1-accesspoint-b-zg10.ap.spotifyx.com # accesspoint europe, 151.64.199.104.bc.googleusercontent.com
-gew1.ap.spotifyx.com # accesspoint europe, links to 124.65.199.104.bc.googleusercontent.com
-guc-dealer.spotifyx.com # redirector usa (san jose) links to 196.127.154.104.bc.googleusercontent.com
-guc-dealer-ssl.spotifyx.com # redirector usa (san jose) links to 34.224.186.35.bc.googleusercontent.com
-guc-spclient.spotifyx.com # redirector usa (san jose) links to sjc.weblb-wg.dual-gslb.spotifyx.com
-guc3.ap.spotifyx.com # accesspoint usa (san jose), links to 126.127.154.104.bc.googleusercontent.com
-guc3-accesspoint-b-76wp.ap.spotifyx.com # accesspoint usa (san jose), links to 154.127.154.104.bc.googleusercontent.com
-guc3-accesspoint-b-vn51.ap.spotifyx.com # accesspoint usa (san jose), links to 45.127.154.104.bc.googleusercontent.com
-global-dealer-ssl.spotifyx.com # secure websocket (full duplex), links to 47.224.186.35.bc.googleusercontent.com
-guc.weblb-wg.spotifyx.com # load balancer / reverse proxy (san jose), links to 47.127.154.104.bc.googleusercontent.com
-image-upload.spotifyx.com # image upload server, links to 47.127.154.104.bc.googleusercontent.com
-line-in.spotifyx.com # surveys (user input), links to 136.64.199.104.bc.googleusercontent.com
-links.spotifyx.com # links to links.iterable.com (shoud be blocked)
-log.spotifyx.com # logs server (should be blocked), links to weblb-wg.dual-gslb.spotifyx.com
-log2.spotifyx.com # logs server (should be blocked), links to weblb-wg.dual-gslb.spotifyx.com
-login.spotifyx.com # login, redirects to home page, links to weblb-wg.gslb.spotifyx.com
-login2.spotifyx.com # facebook authentication (could be blocked), links to weblb-wg.gslb.spotifyx.com
-m.spotifyx.com # mobile site, links to weblb-wg.dual-gslb.spotifyx.com
-market.spotifyx.com # market, links to weblb-wg.dual-gslb.spotifyx.com
-messenger-webhook.spotifyx.com # sharing, links to weblb-wg.dual-gslb.spotifyx.com
-metadatafeedback.spotifyx.com # feedback music metedata, links to lon.weblb-wg.dual-gslb.spotifyx.com (london office)
-mobile-ap.spotifyx.com # mobile access point, links to ap.gslb.spotifyx.com
-lon.weblb-wg.dual-gslb.spotifyx.com # london load balancer / reverse dns
-newsroom.spotifyx.com # news, links to 13.119.201.35.bc.googleusercontent.com (ann anbor)
-nmpa-portal.spotifyx.com # national music publishers association portal, links to sjc.weblb-wg.dual-gslb.spotifyx.com
-ns2.spotifyx.com # nameserver
-ns3.spotifyx.com # nameserver
-ns4.spotifyx.com # nameserver
-ns5.spotifyx.com # nameserver
-oktascimserver.spotifyx.com # okta scim server (cross domain id management), links to weblb-wg.dual-gslb.spotifyx.com
-open.spotifyx.com # spotifyx web player, links to weblb-wg.dual-gslb.spotifyx.com
-opensource.spotifyx.com # open source downloads (cef), links to dbfjrnlu8fwjb.cloudfront.net
-origin-play.spotifyx.com # redirects to home page, links to weblb.gslb.spotifyx.com
-partner-provisioning.spotifyx.com # links to weblb-wg.dual-gslb.spotifyx.com, free premium accounts for partner employees
-sjc.weblb-wg.dual-gslb.spotifyx.com # load balancer / reverse proxy (san jose), links to guc.weblb-wg.spotifyx.com
-partners.wg.spotifyx.com # partners, links to weblb-wg.dual-gslb.spotifyx.com
-partner-service.spotifyx.com # partner (payments) server, links to 172.65.199.104.bc.googleusercontent.com
-partner-service-testing.spotifyx.com # partner (payments) test server, links to 172.65.199.104.bc.googleusercontent.com
-payment-callback.spotifyx.com # payments callback server (with certificate)
-pci.spotifyx.com # payment card industry PCI/DSS
-podcasters.spotifyx.com # podcaster analytics, links to weblb-wg.dual-gslb.spotifyx.com
-pixel.spotifyx.com # spotifyx pixel (should be blocked), links to weblb-wg.dual-gslb.spotifyx.com
-play.spotifyx.com # web player, redirects to https://open.spotifyx.com, links to weblb-wg.dual-gslb.spotifyx.com
-player.spotifyx.com # web player, redirects to https://open.spotifyx.com, links to weblb-wg.dual-gslb.spotifyx.com
-repository-origin.spotifyx.com # repo, links to weblb-wg.dual-gslb.spotifyx.com
-sap.spotifyx.com # sap server, erp system, links to sto3-weblb-wg6.sto3.spotifyx.com (stockholm)
-sap-testing.spotifyx.com # sap test server, enterprise reource planning (erp), links to gew.weblb-wg.spotifyx.com
-shrt.spotifyx.com # spotifyx t-shirts, links to weblb-wg.dual-gslb.spotifyx.com
-spclient.wg.spotifyx.com # client connections gateway (blocking will eliminate ad intro but breaks app)
-spclient-canary.wg.spotifyx.com # client connections beta gateway, links to 62.224.186.35.bc.googleusercontent.com
-speech-recognition.spotifyx.com # speech for car mode?, links to weblb-wg.dual-gslb.spotifyx.com
-spotifyx.com # spotifyx domain (dns is with google)
-start.spotifyx.com # google sites
-sto3-weblb-wg6.sto3.spotifyx.com # load balancer / reverse dns / stockholm gateway
-staging-newsroom.spotifyx.com # internal use
-support.spotifyx.com # support site, links to weblb-wg.dual-gslb.spotifyx.com
-surveys.spotifyx.com # surveys (tune your taste), links to weblb-wg.gslb.spotifyx.com
-timecapsule.spotifyx.com # music of your generation
-wave.spotifyx.com # google wave (ghs.google.com)
-weblb-wg.dual-gslb.spotifyx.com # main load balancer / reverse dns, links to many google cloud locations
-weblb-wg.gslb.spotifyx.com # main load balancer / reverse dns, links to many google cloud locations
-webplayersupport.spotifyx.com # non existent, links to weblb-wg.dual-gslb.spotifyx.com
-wg.spotifyx.com # gateway, links to weblb-wg.dual-gslb.spotifyx.com
-ws-partner.spotifyx.com # payment partner
-ws.spotifyx.com # payments, links to weblb-wg.dual-gslb.spotifyx.com
-www.m.spotifyx.com # mobile site, links to www.spotifyx.com
-www.spotifyx-desktop.com # web site, links to www.spotifyx.com
-www.spotifyx.com # web site, links to weblb-wg.dual-gslb.spotifyx.com
-yearinmusic.spotifyx.com # year in music, links to blb-wg.dual-gslb.spotifyx.com
-# spotifyx servers (spotifyx geo audio streaming using airport codes, iata 3-letter codes)
-# these are servers related to cache.spotifyx.com
-audio-sp-ams.spotifyx.com # audio cache amsterdam
-audio-sp-ams2.spotifyx.com # audio cache amsterdam
-audio-sp-atl.spotifyx.com # audio cache atlanta
-audio-sp-bma.spotifyx.com # audio cache stockholm
-audio-sp-bma6.spotifyx.com # audio cache stockholm
-audio-sp-bmab.spotifyx.com # audio cache stockholm
-audio-sp-dca.spotifyx.com # audio cache washington
-audio-sp-dca6.spotifyx.com # audio cache washington
-audio-sp-fra.spotifyx.com # audio cache washington
-audio-sp-fra2.spotifyx.com # audio cache frankfurt
-audio-sp-lhr.spotifyx.com # audio cache london
-audio-sp-lhr6.spotifyx.com # audio cache london
-audio-sp-lhrb.spotifyx.com # audio cache london
-audio-sp-ord.spotifyx.com # audio cache chicago
-audio-sp-sea.spotifyx.com # audio cache seattle
-audio-sp-sea6.spotifyx.com # audio cache seattle
-audio-sp-seab.spotifyx.com # audio cache seattle
-audio-sp-sin.spotifyx.com # audio cache singapore
-audio-sp-sin2.spotifyx.com # audio cache singapore
-audio-sp-sjc.spotifyx.com # audio cache san jose
-audio-sp-sjc6.spotifyx.com # audio cache san jose
-audio-sp-sjc6b.spotifyx.com # audio cache san jose
-audio-sp-sjcb.spotifyx.com # audio cache san jose
-audio-sp-tyo.spotifyx.com # audio cache tokyo
-audio-sp.spotifyx.com # audio cache global
-=========================
-spotifyx TELEMETRY SYSTEMS
-crashdump.spotifyx.com # crash logs (should be blocked)
-crashdump.ciqe-gslb.spotifyx.com # crash logs (should be blocked)
-=============================
-spotifyx ADVERTISEMENT NETWORK
-# akamai technologies audio ads (geo dependent), akp point to different networks, ak to hosts
-audio-ak.spotifyx.com # audio ads (should be blocked)
-audio-akp.spotifyx.com # audio ads (should be blocked)
-heads-ak.spotifyx.com # should trigger (audio) ads (should be blocked)
-heads-akp.spotifyx.com # should trigger (audio) ads (should be blocked)
-# entering the akamai network (geo dependent)
-audio-ak-spotifyx-com.akamaized.net # audio ads (should be blocked), links to below???
-audio-ake.spotifyx.com.edgesuite.net # audio ads (should be blocked)
-audio-akp-spotifyx-com.akamaized.net # audio ads (should be blocked), links to audio-ak.spotifyx.com.eip.akadns.net
-audio-ak.spotifyx.com.edgesuite.net # audio ads (should be blocked)
-audio-akp.spotifyx.com.edgesuite.net # audio ads (should be blocked)
-audio4-ak.spotifyx.com.edgesuite.net # audio ads (should be blocked)
-audio4-akp.spotifyx.com.edgesuite.net # audio ads (should be blocked)
-audio-ak.spotifyx.com.eip.akadns.net # audio ads (should be blocked), links to the akahost servers below (may be more)
-eip-onnet.audio-ak.spotifyx.com.akahost.net # audio ads (should be blocked)
-eip-tata.audio-ak.spotifyx.com.akahost.net # audio ads (should be blocked)
-eip-ntt.audio-ak.spotifyx.com.akahost.net # audio ads (should be blocked)
-heads-ak.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
-heads-akp.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
-heads4-ak.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
-heads4-akp.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
-# akamai technologies video ads
-event.spotxchange.com # trigger ads, links to ams01.event.spotxchange.com (should be blocked)
-search.spotxchange.com # search ads, links to ams01.event.spotxchange.com (should be blocked)
-sync.search.spotxchange.com # syncs ads, links to ams01.event.spotxchange.com (should be blocked)
-spotxchange.com # spotifyx advertisement platform aka skipit.com, links to https://www.spotx.tv/
-www.spotx.tv $ spotifyx advertisement platform aka skipit.com, links to spotx.tv
+0.0.0.0 zhcn.admob.com
 00.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 01.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 02.video-ak.cdn.spotifyx.com # video ads (should be blocked)
@@ -1341,6 +831,9 @@ www.spotx.tv $ spotifyx advertisement platform aka skipit.com, links to spotx.tv
 10.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 11.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 12.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+127.0.0.1 cryptomator-vault
+127.0.0.1 localhost
+127.0.0.1 prod.spotifyx-heads.map.fastlylb.net
 13.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 14.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 15.video-ak.cdn.spotifyx.com # video ads (should be blocked)
@@ -1461,121 +954,81 @@ www.spotx.tv $ spotifyx advertisement platform aka skipit.com, links to spotx.tv
 9d.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 9e.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 9f.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+::1	browser.events.data.msn.com # managed by privacy.sexy
+::1	ceuswatcab01.blob.core.windows.net # managed by privacy.sexy
+::1	ceuswatcab02.blob.core.windows.net # managed by privacy.sexy
+::1	co4.telecommand.telemetry.microsoft.com # managed by privacy.sexy
+::1	config.edge.skype.com # managed by privacy.sexy
+::1	cs11.wpc.v0cdn.net # managed by privacy.sexy
+::1	cs1137.wpc.gammacdn.net # managed by privacy.sexy
+::1	eaus2watcab01.blob.core.windows.net # managed by privacy.sexy
+::1	eaus2watcab02.blob.core.windows.net # managed by privacy.sexy
+::1	eu-v10c.events.data.microsoft.com # managed by privacy.sexy
+::1	eu-watsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	functional.events.data.microsoft.com # managed by privacy.sexy
+::1	kmwatsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	modern.watson.data.microsoft.com # managed by privacy.sexy
+::1	oca.microsoft.com # managed by privacy.sexy
+::1	oca.telemetry.microsoft.com # managed by privacy.sexy
+::1	self.events.data.microsoft.com # managed by privacy.sexy
+::1	telecommand.telemetry.microsoft.com # managed by privacy.sexy
+::1	telemetry.dropbox.com # managed by privacy.sexy
+::1	telemetry.v.dropbox.com # managed by privacy.sexy
+::1	umwatson.events.data.microsoft.com # managed by privacy.sexy
+::1	umwatsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	us-v10c.events.data.microsoft.com # managed by privacy.sexy
+::1	v10.events.data.microsoft.com # managed by privacy.sexy
+::1	v10.vortex-win.data.microsoft.com # managed by privacy.sexy
+::1	v10c.events.data.microsoft.com # managed by privacy.sexy
+::1	vortex-win.data.microsoft.com # managed by privacy.sexy
+::1	watson.telemetry.microsoft.com # managed by privacy.sexy
+::1	watsonc.events.data.microsoft.com # managed by privacy.sexy
+::1	weus2watcab01.blob.core.windows.net # managed by privacy.sexy
+::1	weus2watcab02.blob.core.windows.net # managed by privacy.sexy
+::1	www.telecommandsvc.microsoft.com # managed by privacy.sexy
+::1 localhost
+=====================
+======================
+=========================
+=============================
+==================================================
+a.adk2x.com
+a.admob.com
 a0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+a1294.w20.akamai.net
+a1843.g.akamai.net
 a2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+a50.g2.akamai.net
 a6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 a9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 aa.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ab.tune.com
 ab.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 ac.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ad.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ae.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-af.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-b9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ba.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-bb.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-bc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-bd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-be.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-bf.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-c9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ca.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-cb.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-cc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-cd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ce.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-cf.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-d9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-da.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-db.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-dc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-dd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-de.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-df.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-e9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ea.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-eb.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ec.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ed.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ee.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ef.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-f9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-fc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-fd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-fe.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-ff.video-ak.cdn.spotifyx.com # video ads (should be blocked)
-# amazon cloudfront advertisements
-audio-cf.spotifyx.com # audio (should be blocked)
-heads-cf.spotifyx.com # should trigger ads (should be blocked)
-# fastly advertisements
-heads-fa.scdn.co # should trigger ads (should be blocked, links to beta.spotifyx.map.fastly.net
-heads-fa.spotifyx.com # should trigger ads (should be blocked)
-heads-fab.spotifyx.com # should trigger ads (should be blocked)
-heads-fac.spotifyx.com # should trigger ads (should be blocked)
-mp3ad.scdn.co # mp3 ads (should be blocked, links to beta.spotifyx.map.fastly.net)
-prod.spotifyx-heads.map.fastlylb.net # should trigger ads (should be blocked)
-# adjust ads
-adjust.com
-#app.adjust.com <- do not block
-atom.adjust.com
-events.adjust.com
-ulink.adjust.com
-view.adjust.com
-# admob ads
-a.admob.com
 ac1.vip.sc9.admob.com
 ac208.sc9.admob.com
+academy.tune.com
+accounts.spotifyx.com # your account page, links to weblb-wg.dual-gslb.spotifyx.com
+aci.scdn.co # account images?, links to beta.spotifyx.map.fastly.net
+actman.scdn.co # not sure, links to beta.spotifyx.map.fastly.net
+ad.atdmt.com
+ad.doubleclick.net
+ad.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+adclick.g.doublecklick.net
+ade.googlesyndication.com
+adeventtracker.spotifyx.com
+adeventtracker.spotifyx.com # tracks advertisments triggered and played (should be blocked)
+adgrx.moatads.com
+adjust.com
+adlab.spotifyx.com
+adlab.spotifyx.com # advertisement lab
+admetrix.comscore.com
 admob.biz
 admob.co.kr
 admob.co.nz
@@ -1596,17 +1049,239 @@ admob.pt
 admob.sg
 admob.tk
 admob.tw
+adnxs.com
+adnxs.comadplexmedia.adk2x.com
+ads-akp.spotifyx.com
+ads-fa.spotifyx.com
+ads-sp-lon.cdn.spotifyx.com
+ads-west-colo.adsymptotic.com
 ads.admob.com
+ads.flurry.com
+ads.pubmatic.com
+ads.spotifyx.com
+adserver.adtechus.com
+adservice.google.co.uk
+adservice.google.com
+adstudio-assets.scdn.co # ad studio assets, links to beta.spotifyx.map.fastly.net
+adstudio.spotifyx.com # ad studio, links to weblb-wg.dual-gslb.spotifyx.com
+ae.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+af.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+afs.moatads.com
+ainara.ash.spotifyx.com # data server
+ainara.ash1.spotifyx.com # data server
+alesti.ash.spotifyx.com # data server
+alesti.ash1.spotifyx.com # data server
+alien.dual-gslb.spotifyx.com # web interface to authenticate to proxy using google accounts
+alien.spotifyx.net # same as above
+ams1-ib.adnxs.com
 analytics.admob.com
+analytics.google.com
+analytics.spotifyx.com
+analytics.spotifyx.com # google analytics (should be blocked just like analytics.google.com)
+andromache.ash.spotifyx.com # data server
+andromache.ash1.spotifyx.com # data server
+anemone.ash.spotifyx.com # data server
+anemone.ash1.spotifyx.com # data server
+anycast.pixel.adsafeprotected.com
+ap.gslb.spotifyx.com # access point (load balancer) / reverse dns
+ap.spotifyx.com # access point (load balancer), links to ap.gslb.spotifyx.com
+api-canary.wg.spotifyx.com # beta api, links to api.spotifyx.com
+api-iam.intercom.io
+api-partner.spotifyx.com # partner api, like chromecast
+api-partners-canary.wg.spotifyx.com # links to weblb-wg.dual-gslb.spotifyx.com
+api-ping.intercom.io
+api-tv-canary.wg.spotifyx.com # links to weblb-wg.dual-gslb.spotifyx.com
+api-tv.spotifyx.com # tv api
 api.admob.com
 api.admob.xiaomi.com
+api.comscore.com
+api.intercom.io
+api.mixpanel.com
+api.spotifyx.com # default api
+api.zwizzarmyknife.com
+apresolve.spotifyx.com # aplist resolver, links to weblb-wg.dual-gslb.spotifyx.com, used by chromecast
+apx.moatads.com
+ar.voicefive.com
+arantxa.ash.spotifyx.com # data server
+arantxa.ash1.spotifyx.com # data server
+artist-identity-image.spotifyx.com # looks like id info, links to weblb-wg.dual-gslb.spotifyx.com
+artistheader.scdn.co # artists header images, links to beta.spotifyx.map.fastly.net
+artistinsights-realtime.spotifyx.com # stats for artists, links to weblb-wg.dual-gslb.spotifyx.com 
+artists.spotifyx.com # the artist portal, links to weblb-wg.dual-gslb.spotifyx.com 
+artistyearinmusic.spotifyx.com # stats for artists, links to weblb-wg.dual-gslb.spotifyx.com 
+aser.comscore.com
+ash-dealer.spotifyx.com # load balancer / reverse proxy, links to ash.weblb-wg.dual-gslb.spotifyx.com
+ash-jumphost-a1.ash.spotifyx.com # jumphost (administrative host for dmz and private network)
+ash-jumphost-a1.ash1.spotifyx.com # jumphost (administrative host for dmz and private network)
+ash.weblb-wg.dual-gslb.spotifyx.com # load balancer / reverse proxy
+ash.weblb-wg.gslb.spotifyx.com # load balancer / reverse proxy
+ash1-apresolve-a1.ash.spotifyx.com # resolver
+ash1-apresolve-a1.ash1.spotifyx.com # resolver
+ash1-apresolve-a2.ash.spotifyx.com # resolver
+ash1-apresolve-a2.ash1.spotifyx.com # resolver
+ash1-apresolve-a3.ash.spotifyx.com # resolver
+ash1-apresolve-a3.ash1.spotifyx.com # resolver
+ash1-msproxy-a1.ash.spotifyx.com # proxy server
+ash1-msproxy-a1.ash1.spotifyx.com # proxy server
+ash1-msproxy-a2.ash.spotifyx.com # proxy server
+ash1-msproxy-a2.ash1.spotifyx.com # proxy server
+ash1-msproxy-a3.ash.spotifyx.com # proxy server
+ash1-msproxy-a3.ash1.spotifyx.com # proxy server
+ash1-msproxy-a4.ash.spotifyx.com # proxy server
+ash1-msproxy-a4.ash1.spotifyx.com # proxy server
+ash2-idp-a1.ash2.spotifyx.com # identity provider (saml)
+ash2-idp-a2.ash2.spotifyx.com # identity provider (saml)
+assets.spotifyx.com
+assets.spotifyx.com # marketing assets (should be blocked)
+atom.adjust.com
+audio-ak-spotifyx-com.akamaized.net # audio ads (should be blocked), links to below???
+audio-ak.spotifyx.com
+audio-ak.spotifyx.com # audio ads (should be blocked)
+audio-ak.spotifyx.com.edgesuite.net # audio ads (should be blocked)
+audio-ak.spotifyx.com.eip.akadns.net # audio ads (should be blocked), links to the akahost servers below (may be more)
+audio-ake.spotifyx.com.edgesuite.net # audio ads (should be blocked)
+audio-akp-bbr-spotifyx-com.akamaized.net
+audio-akp-spotifyx-com.akamaized.net # audio ads (should be blocked), links to audio-ak.spotifyx.com.eip.akadns.net
+audio-akp.spotifyx.com
+audio-akp.spotifyx.com # audio ads (should be blocked)
+audio-akp.spotifyx.com.edgesuite.net # audio ads (should be blocked)
+audio-cf.spotifyx.com
+audio-cf.spotifyx.com # audio (should be blocked)
+audio-ec.spotifyx.com
+audio-fa.scdn.co
+audio-fa.scdn.co # audio used by chromecast, links to beta.spotifyx.map.fastly.net
+audio-fa.spotifyx.com
+audio-fa.spotifyx.com # audio, links to beta.spotifyx.map.fastly.net
+audio-fab.spotifyx.com
+audio-fab.spotifyx.com # audio, links to beta.spotifyx.map.fastly.net
+audio-fac-spotifyx.com
+audio-fac.spotifyx.com # audio, links to beta.spotifyx.map.fastly.net
+audio-gc.scdn.co
+audio-gc.scdn.co # audio, links to 4.75.201.35.bc.googleusercontent.com
+audio-gc.spotifyx.com
+audio-gc.spotifyx.com # audio, links to 4.75.201.35.bc.googleusercontent.com
+audio-sp-ams.spotifyx.com # audio cache amsterdam
+audio-sp-ams2.spotifyx.com # audio cache amsterdam
+audio-sp-atl.spotifyx.com # audio cache atlanta
+audio-sp-bma.spotifyx.com # audio cache stockholm
+audio-sp-bma6.spotifyx.com # audio cache stockholm
+audio-sp-bmab.spotifyx.com # audio cache stockholm
+audio-sp-dca.spotifyx.com # audio cache washington
+audio-sp-dca6.spotifyx.com # audio cache washington
+audio-sp-fra.spotifyx.com # audio cache washington
+audio-sp-fra2.spotifyx.com # audio cache frankfurt
+audio-sp-lhr.spotifyx.com # audio cache london
+audio-sp-lhr6.spotifyx.com # audio cache london
+audio-sp-lhrb.spotifyx.com # audio cache london
+audio-sp-lon.spotifyx.com
+audio-sp-ord.spotifyx.com # audio cache chicago
+audio-sp-sea.spotifyx.com # audio cache seattle
+audio-sp-sea6.spotifyx.com # audio cache seattle
+audio-sp-seab.spotifyx.com # audio cache seattle
+audio-sp-sin.spotifyx.com # audio cache singapore
+audio-sp-sin2.spotifyx.com # audio cache singapore
+audio-sp-sjc.spotifyx.com # audio cache san jose
+audio-sp-sjc6.spotifyx.com # audio cache san jose
+audio-sp-sjc6b.spotifyx.com # audio cache san jose
+audio-sp-sjcb.spotifyx.com # audio cache san jose
+audio-sp-sto.spotifyx.com
+audio-sp-tyo.spotifyx.com # audio cache tokyo
+audio-sp.spotifyx.com # audio cache global
+audio2.spotifyx.com
+audio4-ak-spotifyx-com.akamaized.net
+audio4-ak.spotifyx.com.edgesuite.net
+audio4-ak.spotifyx.com.edgesuite.net # audio ads (should be blocked)
+audio4-akp.spotifyx.com.edgesuite.net # audio ads (should be blocked)
+auditdesk-server.spotifyx.com # audit management, links to lon.weblb-wg.dual-gslb.spotifyx.com
+axp.spotifyx.com # audio expo site, links to weblb-wg.dual-gslb.spotifyx.com
 b.admob.com
+b.scorecardresearch.com
+b0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+b9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ba.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+bb.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+bc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+bd.moatads.com
+bd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+be.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+beta.spotifyx.com # redirects to home page, links to weblb-wg.dual-gslb.spotifyx.com
+beta.spotifyx.map.fastly.net
+beta.spotifyx.map.fastly.net # ip geo dependent (should be blocked)
+beta.tune.com
+bf.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+bid.g.doubleclick.net
+blog.spotifyx.com # blog that does not exist, links to weblb-wg.dual-gslb.spotifyx.com
+bloodhound.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
+bounceexchange.com
+brandsnews.spotifyx.com # redirects to spotifyxforbrands.com (hosted by amazon)
 broadcast.admob.com
+bs.serving-sys.com
+bsams.eyeblaster.akadns.net
+bundling-integration.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
+c-evt.moatads.com
 c.admob.com
+c0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
 c1.vip.sc9.admob.com
+c2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+c9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ca.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+cache.spotifyx.com # cache
+cadace.ash1.spotifyx.com # data server
+cal.spotifyx.com # spotifyx callender, authenticates with google accounts (cname ghs.google.com)
+car-dev.scdn.co # spotifyx car mode (development), links to beta.spotifyx.map.fastly.net
+car-prod.scdn.co # spotifyx car mode, links to beta.spotifyx.map.fastly.net
+car-staging.scdn.co # spotifyx car mode, links to beta.spotifyx.map.fastly.net
+cast.scdn.co # interface used by chromecast (partner devices), links to beta.spotifyx.map.fastly.net
+cb.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+cc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+cd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+cdn.ravenjs.com
+cdr.comscore.com
+ce.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+cer.comscore.com
+cf.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+charts-images.scdn.co # charts images, links to beta.spotifyx.map.fastly.net
+clemmie.ash.spotifyx.com # data server
+clemmie.ash1.spotifyx.com # data server
+click.api.cp.tune.com
 clk1.vip.sc9.admob.com
 clk2.vip.sc9.admob.com
 clk3.vip.sc9.admob.com
+cm.g.doubleclick.net
+cms.spotifyx.com # spotifyx catalog manager, links to lon.weblb-wg.dual-gslb.spotifyx.com (london)
+combine.urbanairship.com
+community-stage.spotifyx.com # spotifyx community login for artists
+community.spotifyx.com # community forum
+comscore.net
+comscore.org
+comscoredatagems.com
+comscoredatamine.com
+comscoredirect.net
+comscorenetworks.net
+concerts-hometile-images.scdn.co # windows concert images, links to beta.spotifyx.map.fastly.net
+concerts.scdn.co # concert images (or info), links to beta.spotifyx.map.fastly.net
+configuration.ma.tune.com
+content.bitsontherun.com
+core-ash-001.ash.spotifyx.com # data server
+core-ash-001.ash1.spotifyx.com # data server
+core.insightexpressai.com
+corp.tune.com
+cp.tune.com
 cpm.admob.com
 cpm1.admob.com
 cpm1.vip.sc9.admob.com
@@ -1614,108 +1289,316 @@ cpm2.admob.com
 cpm2.vip.sc9.admob.com
 cpm3.admob.com
 cpm3.vip.sc9.admob.com
+crashdump.ciqe-gslb.spotifyx.com
+crashdump.ciqe-gslb.spotifyx.com # crash logs (should be blocked)
+crashdump.spotifyx.com
+crashdump.spotifyx.com # crash logs (should be blocked)
+crashlytics.163.com
+crashlytics.com
+crashlytics.twimg.com
+creativeservice-production.scdn.co # something related to production of ads, links to beta.spotifyx.map.fastly.net
+creator-canary.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
+creator.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
+crusader.scdn.co # ?, links to beta.spotifyx.map.fastly.net
+cs126.wpc.edgecastcdn.net
+cs126.wpc.teliasoneracdn.net
+cs283.wpc.teliasoneracdn.net
+cs934.wac.thetacdn.net
+cws.spotifyx.com # misc (maybe contingent workforce strategies)
+cws2.spotifyx.com # misc (maybe contingent workforce strategies)
 d.admob.com
+d0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d2gi7ultltnc2u.cloudfront.net
+d3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d361oi6ppvq2ym.cloudfront.net
+d3rt1990lpmkn.cloudfront.net
+d3rt199lpmkn.cloudfront.net
+d4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+d9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+da.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+daily-mix.scdn.co # daily mixes (less restricted), links to beta.spotifyx.map.fastly.net
+daryl.ash.spotifyx.com # data server
+daryl.ash1.spotifyx.com # data server
+datawarehouse.spotifyx.com # data warehouse
+dayana.ash.spotifyx.com # data server
+dayana.ash1.spotifyx.com # data server
+db.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+dbg52463.moatads.com
+dc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+dd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+de.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+dealer.spotifyx.com # secure websocket (full duplex), links to global-dealer-ssl.spotifyx.com
+deborah.ash.spotifyx.com # data server
+deborah.ash1.spotifyx.com # data server
+decide.mixpanel.com
+demo-builder.spotifyx.com # ?, links to sjc.weblb-wg.dual-gslb.spotifyx.com
 dep.admob.com
+desktop.spotifyx.com
+desktop.spotifyx.com # desktop app connection to load balancer, links to weblb-wg.dual-gslb.spotifyx.com
+dev.lab.tune.com
+dev.spotifyx.com # developer portal, links to developer.spotifyx.com
 dev1.vip.sc9.admob.com
+devaccount.spotifyx.com # developer portal, links to developer.spotifyx.com
 developer.admob.com
+developer.spotifyx.com # developer portal, links to developer.spotifyx.map.fastly.net
+developer.spotifyx.map.fastly.net # developer portal, links to different load balancers in london
+developers.intercom.io
+developers.spotifyx.com # developer portal, links to developer.spotifyx.map.fastly.net
+devicemetadataservice.trafficmanager.net
+devnews.spotifyx.com # redirects to https://developer.spotifyx.com/community/news/
+df.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+docs.spotifyx.com # spotifyx documents server (google drive, cname ghs.google.com, google hosting services)
+doubleclick.net
+download.scdn.co # track downloads, links to beta.spotifyx.map.fastly.net
+download.spotifyx.com # track downloads, links to download.spotifyx.map.fastly.net
+download.spotifyx.map.fastly.net # track downloads
+ds.serving-sys.com
+dt.adsafeprotected.com
 e.admob.com
+e.crashlytics.com
+e0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e7876.dscg.akamaiedge.net
+e8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+e8218.dscb1.akamaiedge.net
+e9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ea.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+eb.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ec.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ed.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ee-in-f95.1.e100.net
+ee.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+ef.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+eip-ntt.audio-ak.spotifyx.com.akahost.net # audio ads (should be blocked)
+eip-onnet.audio-ak.spotifyx.com.akahost.net # audio ads (should be blocked)
+eip-tata.audio-ak.spotifyx.com.akahost.net # audio ads (should be blocked)
+ejs.moatads.com
+embed.spotifyx.com # embedding, links to weblb-wg.dual-gslb.spotifyx.com
 eng.admob.com
+engineering.intercom.io
+esdk-ffl.spotifyx.com # (extended) sdk, links to weblb-wg.dual-gslb.spotifyx.com
+eu-gmtdmp.gd1.mookie1.com
+event.api.cp.tune.com
+event.spotxchange.com # trigger ads, links to ams01.event.spotxchange.com (should be blocked)
+events.adjust.com
+evt.moatads.com
+exp-canary.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
+exp.wg.spotifyx.com
+exp.wg.spotifyx.com # no clue, links to weblb-wg.dual-gslb.spotifyx.com
 f.admob.com
+f0.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f1.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f2.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f3.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f4.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f5.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f6.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f7.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f8.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+f9.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+facebook-callback.spotifyx.com # facebook authentication, links to weblb-wg.dual-gslb.spotifyx.com (there is the api)
+fc.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+fd.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+fe.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+felice.ash.spotifyx.com # data server
+felice.ash1.spotifyx.com # data server
+ff.video-ak.cdn.spotifyx.com # video ads (should be blocked)
+files.spotifyx.com # ?, links to www-001.lon.spotifyx.com
+fs.moatads.com
+funky.staging.intercom.io
+fw.adsafeprotected.com
 g.admob.com
+gads.pubmatic.com
+gads22000.pubmatic.com
+gae-dealer-ssl.spotifyx.com # redirector asia (singapore) links to 46.224.186.35.bc.googleusercontent.com
+gae-dealer.spotifyx.com # redirector asia (singapore), links to 86.240.199.104.bc.googleusercontent.com
+gae-spclient.spotifyx.com # redirector asia (singapore), links to 211.240.199.104.bc.googleusercontent.com
+gae2-accesspoint-b-kvql.ap.spotifyx.com # accesspoint asia (singapore), links to 219.240.199.104.bc.googleusercontent.com
+gae2-accesspoint-b-m3zs.ap.spotifyx.com # accesspoint asia (singapore), links to 187.241.199.104.bc.googleusercontent.com
+gae2-accesspoint-b-qgbk.ap.spotifyx.com # accesspoint asia (singapore), links to 172.241.199.104.bc.googleusercontent.com
+gae2-accesspoint-b-zk3b.ap.spotifyx.com # accesspoint asia (singapore), links to 183.241.199.104.bc.googleusercontent.com
+gae2.ap.spotifyx.com # accesspoint asia (singapore), links to 237.240.199.104.bc.googleusercontent.com
 games.admob.com
+gcdn.2mdn.net
 ge-0-0-1-edge1.sc9.admob.com
 ge-0-0-43-crs1.sc9.admob.com
+geo.moatads.com
+geo3.ggpht.com
+gew-dealer-ssl.spotifyx.com # redirector europe (mabye eemshaven) links to 45.224.186.35.bc.googleusercontent.com
+gew-dealer.spotifyx.com # redirector europe (mabye eemshaven), links to 45.224.186.35.bc.googleusercontent.com
+gew-spclient.spotifyx.com # redirector europe (mabye eemshaven) links to 62.224.186.35.bc.googleusercontent.com
+gew1-accesspoint-b-0t5h.ap.spotifyx.com # accesspoint europe, links to 47.65.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-3vgg.ap.spotifyx.com # accesspoint europe, links to 16.65.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-4nz6.ap.spotifyx.com # accesspoint europe, links to 30.64.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-ch6f.ap.spotifyx.com # accesspoint europe, links to 25.64.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-mb1b.ap.spotifyx.com # accesspoint europe, links to 139.64.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-n2b0.ap.spotifyx.com # accesspoint europe, links to 173.64.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-p520.ap.spotifyx.com # accesspoint europe, links to 126.64.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-rzpq.ap.spotifyx.com # accesspoint europe, links to 210.65.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-wfcl.ap.spotifyx.com # accesspoint europe, links to 206.65.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-wjjm.ap.spotifyx.com # accesspoint europe, links to 82.65.199.104.bc.googleusercontent.com
+gew1-accesspoint-b-zg10.ap.spotifyx.com # accesspoint europe, 151.64.199.104.bc.googleusercontent.com
+gew1.ap.spotifyx.com
+gew1.ap.spotifyx.com # accesspoint europe, links to 124.65.199.104.bc.googleusercontent.com
+global-dealer-ssl.spotifyx.com # secure websocket (full duplex), links to 47.224.186.35.bc.googleusercontent.com
+go.scdn.co # ?, links to beta.spotifyx.map.fastly.net
+googleadapis.l.google.com
+googleads.g.doubleclick.net
+googleads4.g.doubleclick.net
+googleadservices.com
+googlehosted.l.googleusercontent.com
+googletagservices.com
+groups.spotifyx.com # google groups (internal discussion, cname ghs.google.com)
+gtssl2-ocsp.geotrust.com
+guc-dealer-ssl.spotifyx.com # redirector usa (san jose) links to 34.224.186.35.bc.googleusercontent.com
+guc-dealer.spotifyx.com # redirector usa (san jose) links to 196.127.154.104.bc.googleusercontent.com
+guc-spclient.spotifyx.com # redirector usa (san jose) links to sjc.weblb-wg.dual-gslb.spotifyx.com
+guc.weblb-wg.spotifyx.com # load balancer / reverse proxy (san jose), links to 47.127.154.104.bc.googleusercontent.com
+guc3-accesspoint-b-76wp.ap.spotifyx.com # accesspoint usa (san jose), links to 154.127.154.104.bc.googleusercontent.com
+guc3-accesspoint-b-vn51.ap.spotifyx.com # accesspoint usa (san jose), links to 45.127.154.104.bc.googleusercontent.com
+guc3.ap.spotifyx.com # accesspoint usa (san jose), links to 126.127.154.104.bc.googleusercontent.com
 gw.admob.com
 h.admob.com
+hanane.ash.spotifyx.com # data server
+hanane.ash1.spotifyx.com # data server
+heads-ak-spotifyx-com.akamaized.net
+heads-ak.spotifyx.com
+heads-ak.spotifyx.com # should trigger (audio) ads (should be blocked)
+heads-ak.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
+heads-akp.spotifyx.com
+heads-akp.spotifyx.com # should trigger (audio) ads (should be blocked)
+heads-akp.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
+heads-cf.spotifyx.com
+heads-cf.spotifyx.com # should trigger ads (should be blocked)
+heads-ec.spotifyx.com
+heads-fa.scdn.co
+heads-fa.scdn.co # should trigger ads (should be blocked, links to beta.spotifyx.map.fastly.net
+heads-fa.spotifyx.com
+heads-fa.spotifyx.com # should trigger ads (should be blocked)
+heads-fab.spotifyx.com
+heads-fab.spotifyx.com # should trigger ads (should be blocked)
+heads-fac.spotifyx.com
+heads-fac.spotifyx.com # should trigger ads (should be blocked)
+heads4-ak.spotifyx.com.edgesuite.net
+heads4-ak.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
+heads4-akp.spotifyx.com.edgesuite.net # triggers audio ads (should be blocked)
+herlinda.ash.spotifyx.com # data server
+herlinda.ash1.spotifyx.com # data server
+hrblog.spotifyx.com # human resources blog
 i.admob.com
+i.scdn.co
+i.scdn.co # images, links to beta.spotifyx.map.fastly.net
+ia1.comscore.com
+ia2.comscore.com
+iad.comscore.com
+ib.adnxs.com
+idp.gslb.spotifyx.com # identity provider load balancer (saml), links to ash2-idp-a1.ash2.spotifyx.com
+idsync-ext.rlcdn.com
+ilisapesi.ash.spotifyx.com # data server
+ilisapesi.ash1.spotifyx.com # data server
+im.comscore.com
+image-upload.spotifyx.com # image upload server, links to 47.127.154.104.bc.googleusercontent.com
+images.comscore.com
+images.spotifyx.com # spotifyx's own images (also ads), links to beta.spotifyx.map.fastly.net
+img.spotifyx.com # images, links to lon.weblb-wg.dual-gslb.spotifyx.com
+insights.spotifyx.com # insights of global use, links to vip-lb.wordpress.com
+intercom.io
+internal.intercom.io
+ipinfo.io
+iria.ash.spotifyx.com # data server
+iria.ash1.spotifyx.com # data server
 j.admob.com
+jm.moatads.com
 jp.admob.com
+js.moatads.com
+json.moatads.com
+jsonp.moatads.com
 k.admob.com
+kajal.ash.spotifyx.com # data server
+kajal.ash1.spotifyx.com # data server
+kenyatta.ash.spotifyx.com # data server
+kenyatta.ash1.spotifyx.com # data server
+kismet.ash.spotifyx.com # data server
+kismet.ash1.spotifyx.com # data server
 l.admob.com
+lab.tune.com
+labs.comscore.com
+labs.spotifyx.community # spotifyx labs
+labs.tune.com
+laurinda.ash.spotifyx.com # data server
+laurinda.ash1.spotifyx.com # data server
+lb1-217593028.us-east-1.elb.amazonaws.com
+leadvisualdesigner.intercom.io
+line-in.spotifyx.com # surveys (user input), links to 136.64.199.104.bc.googleusercontent.com
+lineup-images.scdn.co # concert and event images, links to beta.spotifyx.map.fastly.net
+links.iterable.com
+links.spotifyx.com
+links.spotifyx.com # links to links.iterable.com (shoud be blocked)
+live-tile-images.scdn.co # windows start menu images, links to beta.spotifyx.map.fastly.net
+live.adyen.com
+live.spotifyx.com # ?
+log.spotifyx.com
+log.spotifyx.com # logs server (should be blocked), links to weblb-wg.dual-gslb.spotifyx.com
+log2.spotifyx.com
+log2.spotifyx.com # logs server (should be blocked), links to weblb-wg.dual-gslb.spotifyx.com
+login-signup.scdn.co # login and signup
+login.spotifyx.com # login, redirects to home page, links to weblb-wg.gslb.spotifyx.com
+login2.spotifyx.com # facebook authentication (could be blocked), links to weblb-wg.gslb.spotifyx.com
+logtest.moatads.com
+lon.weblb-wg.dual-gslb.spotifyx.com # load balancer / reverse proxy (london)
+lon.weblb-wg.dual-gslb.spotifyx.com # london load balancer / reverse dns
+lon.weblb-wg.gslb.spotifyx.com # load balancer / reverse proxy (london)
+lon6-accesspoint-a33.lon6.spotifyx.com
+lotta.ash.spotifyx.com # data server
+lotta.ash1.spotifyx.com # data server
+lysandra.ash.spotifyx.com # data server
+lysandra.ash1.spotifyx.com # data server
 m.admob.com
+m.spotifyx.com # mobile site, links to weblb-wg.dual-gslb.spotifyx.com
+ma.tune.com
+mail.spotifyx.com # google mail (ghs.google.com)
+mail2.comscore.com
+market.spotifyx.com # market, links to weblb-wg.dual-gslb.spotifyx.com
+marketer.comscore.com
+media-match.com
+media-router-flurry7.prod.media.wg1.b.yahoo.com
 media.admob.com
+merch-img.scdn.co # merchandise images (not ads), links to beta.spotifyx.map.fastly.net
+messenger-webhook.spotifyx.com # sharing, links to weblb-wg.dual-gslb.spotifyx.com
+messenger-webview.scdn.co # looks like share function, links to beta.spotifyx.map.fastly.net
+metadatafeedback.spotifyx.com # feedback music metedata, links to lon.weblb-wg.dual-gslb.spotifyx.com (london office)
 metrics.admob.com
+mixpanel.com
+mkt.tune.com
 mm.admob.com
 mm1.vip.sc1.admob.com
 mm1.vip.sc9.admob.com
 mm104.sc9.admob.com
 mmv.admob.com
-n.admob.com
-network.admob.com
-o.admob.com
-p.admob.com
-p1.vip.sc9.admob.com
-paix1.sc1.admob.com
-pixel.admobclick.com
-pt.admob.com
-q.admob.com
-r.admob.com
-r2.vip.sc9.admob.com
-rmd.admob.com
-s.admob.com
-sc1.admob.com
-sc9.admob.com
-smtp.admob.com
-smtp2.admob.com
-t.admob.com
-tap1.vip.sc9.admob.com
-tic1.vip.sc9.admob.com
-tracking.admobsphere.com
-tx102.sc9.admob.com
-tx103.sc9.admob.com
-u.admob.com
-ukr.admob.com
-v.admob.com
-vip.sc9.admob.com
-w.admob.com
-wap.admob.com
-waps.admob.com
-wendy.admob.com
-www.admob.com
-www.admob.com.akadns.net
-www1.vip.sc9.admob.com
-x.admob.com
-y.admob.com
-z.admob.com
-zhcn.admob.com
-# akamai technologies
-a1294.w20.akamai.net
-a1843.g.akamai.net
-a50.g2.akamai.net
-bsams.eyeblaster.akadns.net
-e7876.dscg.akamaiedge.net
-e8218.dscb1.akamaiedge.net
-# amazon
-lb1-217593028.us-east-1.elb.amazonaws.com
-rp-lb-766892831.us-east-1.elb.amazonaws.com
-# aol
-# appnexus
-a.adk2x.com
-ams1-ib.adnxs.com
-ib.adnxs.com
-# ayden payments
-live.adyen.com
-# bounce exchange (anonymous)
-# comscore analytics
-admetrix.comscore.com
-api.comscore.com
-aser.comscore.com
-cdr.comscore.com
-cer.comscore.com
-comscore.net
-comscore.org
-comscoredatagems.com
-comscoredatamine.com
-comscoredirect.net
-comscorenetworks.net
-ia1.comscore.com
-ia2.comscore.com
-iad.comscore.com
-im.comscore.com
-images.comscore.com
-labs.comscore.com
-mail2.comscore.com
-marketer.comscore.com
+moat.pxl.ace.advertising.com
+moatads.com
+moatads.com.edgekey.net
+mobile-001.lon.spotifyx.com # ?
+mobile-ap.spotifyx.com # mobile access point, links to ap.gslb.spotifyx.com
+mobile-sdk-api.intercom.io
+mobile.spotifyx.com # ?, links to mobile-001.lon.spotifyx.com
+mosaic.scdn.co # mosaic images (playlists), links to beta.spotifyx.map.fastly.net
+mp3ad.scdn.co
+mp3ad.scdn.co # mp3 ads (should be blocked, links to beta.spotifyx.map.fastly.net)
+multiverse.tune.com
+muster-sandbox.intercom.io
 mx0.comscore.com
 mx1.comscore.com
 mx2.comscore.com
@@ -1723,218 +1606,308 @@ my.comscore.com
 mycomscore.com
 mymetrix.comscore.com
 myresearch.comscore.com
-ord.comscore.com
-postbuy.comscore.com
-proclarity.comscore.com
-qat.comscore.com
-siterecruit.comscore.com
-svn.comscore.com
-www.comscore.com
-www.mycomscore.net
-# crashlytics
-crashlytics.163.com
-crashlytics.com
-crashlytics.twimg.com
-e.crashlytics.com
-reports.crashlytics.com
-settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
-settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
-settings.crashlytics.com
-# data protected
-combine.urbanairship.com
-# drawbridge
-# geotrust
-# google analytics
-analytics.google.com
-# google ads
-ad.doubleclick.net
-ade.googlesyndication.com
-adservice.google.com
-ee-in-f95.1.e100.net
-gcdn.2mdn.net
-s0-2mdn-net.l.google.com
-# integral ad science
-# intercom ads
-api-iam.intercom.io
-api-ping.intercom.io
-api.intercom.io
-developers.intercom.io
-engineering.intercom.io
-funky.staging.intercom.io
-intercom.io
-internal.intercom.io
-leadvisualdesigner.intercom.io
-mobile-sdk-api.intercom.io
-muster-sandbox.intercom.io
+n.admob.com
+na.gmtdmp.com
+nediva.ash.spotifyx.com # data server
+nediva.ash1.spotifyx.com # data server
+neeharika.ash.spotifyx.com # data server
+neeharika.ash1.spotifyx.com # data server
+network.admob.com
+news.spotifyx.com # news, redirects to newsroom.spotifyx.com, links to vip-lb.wordpress.com
+newsroom.spotifyx.com # news, links to 13.119.201.35.bc.googleusercontent.com (ann anbor)
 nexus-testing.intercom.io
 nexus-websocket-a.intercom.io
 nexus.intercom.io
-orientation.internal.intercom.io
-status.intercom.io
-store.intercom.io
-terraform-modules-test.intercom.io
-via.intercom.io
-w.intercom.io
-widget.intercom.io
-woody.intercom.io
-www.intercom.io
-# ipinfo.io api
-ipinfo.io
-# iterable
-links.iterable.com
-# kantar operations
-# leanlab
-track.leanlab.co (tracking pixel)
-# longtail ad solutions (jwplayer also used for ads)
-# media innovation group
-eu-gmtdmp.gd1.mookie1.com
-# media match
-# mobileapptracking ads (now tune)
-ab.tune.com
-academy.tune.com
-beta.tune.com
-click.api.cp.tune.com
-configuration.ma.tune.com
-corp.tune.com
-cp.tune.com
-dev.lab.tune.com
-event.api.cp.tune.com
-lab.tune.com
-labs.tune.com
-ma.tune.com
-mkt.tune.com
-multiverse.tune.com
+nieves.ash.spotifyx.com # data server
+nieves.ash1.spotifyx.com # data server
+nmpa-portal.spotifyx.com # national music publishers association portal, links to sjc.weblb-wg.dual-gslb.spotifyx.com
+ns2.spotifyx.com # nameserver
+ns3.spotifyx.com # nameserver
+ns4.spotifyx.com # nameserver
+ns5.spotifyx.com # nameserver
+o.admob.com
+o.scdn.co # album images, links to beta.spotifyx.map.fastly.net
+o1.em.spotifyx.com # mail (old server, denver)
+o11.em.spotifyx.com # mail (old server, denver)
+oktascimserver.spotifyx.com # okta scim server (cross domain id management), links to weblb-wg.dual-gslb.spotifyx.com
+omaze.com
+open.scdn.co # cdn equivalent of open.spotifyx.com, links to beta.spotifyx.map.fastly.net 
+open.spotifyx.com # spotifyx web player, links to weblb-wg.dual-gslb.spotifyx.com
+opensource.spotifyx.com # open source downloads (cef), links to dbfjrnlu8fwjb.cloudfront.net
 ops-prod.us-west-2.k8s.ops.tune.com
-playlist.ma.tune.com
-request.api.cp.tune.com
-stage.tune.com
-support.tune.com
-tune.com
-ui.cp.tune.com
-updates.tune.com
-www.cp.tune.com
-www.ui.cp.tune.com
-# mixpanel analytics
-api.mixpanel.com
-decide.mixpanel.com
-mixpanel.com
-switchboard.mixpanel.com
-www.mixpanel.com
-# moatads / moatanalytics
-adgrx.moatads.com
-afs.moatads.com
-apx.moatads.com
-bd.moatads.com
-c-evt.moatads.com
-dbg52463.moatads.com
-ejs.moatads.com
-evt.moatads.com
-fs.moatads.com
-geo.moatads.com
-jm.moatads.com
-json.moatads.com
-jsonp.moatads.com
-logtest.moatads.com
-moat.pxl.ace.advertising.com
-moatads.com
-moatads.com.edgekey.net
+ord.comscore.com
+orientation.internal.intercom.io
+origin-play.spotifyx.com # redirects to home page, links to weblb.gslb.spotifyx.com
+p.admob.com
+p.scdn.co # preview tracks (30 seconds), links to beta.spotifyx.map.fastly.net
+p1.vip.sc9.admob.com
+pagead-googlehosted.l.google.com
+pagead.l.doubleclick.net
+pagead2.googlesyndication.com
+pagead46.l.doubleclick.net
+paix1.sc1.admob.com
+partner-provisioning.spotifyx.com # links to weblb-wg.dual-gslb.spotifyx.com, free premium accounts for partner employees
+partner-service-testing.spotifyx.com
+partner-service-testing.spotifyx.com # partner (payments) test server, links to 172.65.199.104.bc.googleusercontent.com
+partner-service.spotifyx.com
+partner-service.spotifyx.com # partner (payments) server, links to 172.65.199.104.bc.googleusercontent.com
+partner.googleadservices.com
+partnerad.l.doubleclick.net
+partnerportal.spotifyx.com # partner portal (docs etc), cname ghs.googlehosted.com (google sites)
+partners.spotifyx.com # links to lon.weblb-wg.dual-gslb.spotifyx.com
+partners.wg.spotifyx.com # partners, links to weblb-wg.dual-gslb.spotifyx.com
+payment-callback.spotifyx.com
+payment-callback.spotifyx.com # payments callback server (with certificate)
+pci.spotifyx.com
+pci.spotifyx.com # payment card industry PCI/DSS
+pixel.admobclick.com
 pixel.moatads.com
+pixel.spotifyx.com
+pixel.spotifyx.com # spotifyx pixel (should be blocked), links to weblb-wg.dual-gslb.spotifyx.com
+pl.scdn.co # playlists, links to beta.spotifyx.map.fastly.net
+play.spotifyx.com # web player, redirects to https://open.spotifyx.com, links to weblb-wg.dual-gslb.spotifyx.com
+play.spotifyx.edgekey.net # spotifyx web player (cloud), redirects to https://open.spotifyx.com/
+player.spotifyx.com # web player, redirects to https://open.spotifyx.com, links to weblb-wg.dual-gslb.spotifyx.com
+playlist.ma.tune.com
+podcasters.spotifyx.com # podcaster analytics, links to weblb-wg.dual-gslb.spotifyx.com
 pool3.moatads.com
 pool5.moatads.com
 post.update.moatads.com
+postbuy.comscore.com
+press.spotifyx.com # press, redirects to newsroom.spotifyx.com, links to vip-lb.wordpress.com
+proclarity.comscore.com
+prod.spotifyx-heads.map.fastlylb.net
+prod.spotifyx-heads.map.fastlylb.net # ip geo dependent, links to beta.spotifyx.map.fastly.net (should be blocked)
+prod.spotifyx-heads.map.fastlylb.net # should trigger ads (should be blocked)
+prod.spotifyx.map.fastly.net # ip geo dependent, links to beta.spotifyx.map.fastly.net (should be blocked)
+prod.spotifyx.map.fastlylb.net
+prod.spotifyx.map.fastlylb.net # ip geo dependent, links to beta.spotifyx.map.fastly.net (should be blocked)
+profile-images.scdn.co # user profile images, links to beta.spotifyx.map.fastly.net
+pt.admob.com
+pubads.g.doubleclick.net
 px.moatads.com
+q.admob.com
+qat.comscore.com
 quantcast584928381.s.moatpixel.com
+quicksilver.scdn.co # quicksilver card upsell?, beta.spotifyx.map.fastly.net
 r.254a.comjs.moatads.com
+r.admob.com
+r.scdn.co # images, links to beta.spotifyx.map.fastly.net
+r2.vip.sc9.admob.com
+redirector.gvt1.com
+reports.crashlytics.com
+repository-origin.spotifyx.com # repo, links to weblb-wg.dual-gslb.spotifyx.com
+repository.spotifyx.com # repo, links to d2czmavkeme1ql.cloudfront.net
+request.api.cp.tune.com
+rmd.admob.com
+rosevear.ash.spotifyx.com # data server
+rosevear.ash1.spotifyx.com # data server
+rp-lb-766892831.us-east-1.elb.amazonaws.com
+rt-vrrp-pub.ash.spotifyx.com # router, virtual router redundancy protocol
+rt-vrrp-pub.ash1.spotifyx.com # router, virtual router redundancy protocol
 s-jsonp.moatads.com
+s.2mdn.net
+s.admob.com
 s.moatads.com
 s.update.moatads.com
+s0-2mdn-net.l.google.com
+s0.2mdn.net
+samatha.ash.spotifyx.com # data server
+samatha.ash1.spotifyx.com # data server
+sap-testing.spotifyx.com # sap test server, enterprise reource planning (erp), links to gew.weblb-wg.spotifyx.com
+sap.spotifyx.com # sap server, erp system, links to sto3-weblb-wg6.sto3.spotifyx.com (stockholm)
+sb.scorecardresearch.com
+sb.voicefive.com
+sc1.admob.com
+sc9.admob.com
+scannables.scdn.co
+scannables.scdn.co # spotifyx codes (qr like), links to beta.spotifyx.map.fastly.net
+search.spotxchange.com # search ads, links to ams01.event.spotxchange.com (should be blocked)
+secure.insightexpressai.com
+securepubads.g.doubleclick.net
+seektables.scdn.co # patented search of multimedia segments (fetching), links to beta.spotifyx.map.fastly.net
+seen-on-screen.thewhizmarketing.com
 sejs.moatads.com
+server-54-23-216-23.mrs5.r.cloudfront.net
+server-54-230-216-203.mrs50.r.cloudfront.net
+settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
+settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
+settings.crashlytics.com
+showads33000.pubmatic.com
+showsportal.spotifyx.com # podcasts, redirects to https://podcasters.spotifyx.com
+shradhdha.ash.spotifyx.com # data server
+shradhdha.ash1.spotifyx.com # data server
+shrt.spotifyx.com # spotifyx t-shirts, links to weblb-wg.dual-gslb.spotifyx.com
+shulamit.ash.spotifyx.com # data server
+shulamit.ash1.spotifyx.com # data server
+siterecruit.comscore.com
+sjc.weblb-wg.dual-gslb.spotifyx.com # load balancer / reverse proxy (san jose), links to guc.weblb-wg.spotifyx.com
+slackin.spotifyx.com # foss slack community, you are able to create an account (amazon server)
+smtp.admob.com
+smtp2.admob.com
+sp-bootstrap.global.ssl.fastly.net # spotifyx bootstrap framework (html, css, js)
+spclient-canary.wg.spotifyx.com # client connections beta gateway, links to 62.224.186.35.bc.googleusercontent.com
+spclient.wg.spotifyx.com # client connections gateway (blocking will eliminate ad intro but breaks app)
+speech-recognition.spotifyx.com # speech for car mode?, links to weblb-wg.dual-gslb.spotifyx.com
+spotifyx ADVERTISEMENT NETWORK
+spotifyx MUSIC NETWORK
+spotifyx PRIVATE NETWORK GLOBAL (STOCKHOLM/ASHBURN)
+spotifyx PUBLIC NETWORK
+spotifyx TELEMETRY SYSTEMS
+spotifyx-desktop.com
+spotifyx.com # spotifyx domain (dns is with google)
+spotifyx.map.fastly.net # ip geo dependent
+spotifyx_Server_List
+spotxchange.com # spotifyx advertisement platform aka skipit.com, links to https://www.spotx.tv/
+spritemaps.cdn.spotifyx.com # ?, links to beta.spotifyx.map.fastly.net
+spritemaps.scdn.co
+spritemaps.scdn.co # ?, links to beta.spotifyx.map.fastly.net
+squadcdn.spotifyx.map.fastly.net # jsdelivr CDN?
+ssoproxy.gslb.spotifyx.com # single sign-on proxy server / load balancer
+stacia.ash.spotifyx.com # data server
+stacia.ash1.spotifyx.com # data server
+stage.tune.com
+staging-newsroom.spotifyx.com # internal use
+start.spotifyx.com # google sites
+status.intercom.io
+sto-dealer.spotifyx.com # links to sto.weblb-wg.dual-gslb.spotifyx.com
+sto-spclient.spotifyx.com # links to sto.weblb-wg.dual-gslb.spotifyx.com
+sto.weblb-wg.dual-gslb.spotifyx.com # load balancer / gateway
+sto.weblb-wg.gslb.spotifyx.com # load balancer / gateway
+sto3-accesspoint-a88.sto3.spotifyx.net
+sto3-idp-a1.sto3.spotifyx.com # identity provider (saml)
+sto3-idp-a2.sto3.spotifyx.com # identity provider (saml)
+sto3-inbound-a1.sto3.spotifyx.com # inbound (requests)
+sto3-inbound-a2.sto3.spotifyx.com # inbound (requests)
+sto3-inboundvideo-a1.sto3.spotifyx.com # inbound video
+sto3-inboundvideo-a2.sto3.spotifyx.com # inbound video
+sto3-jumphost-a1.sto3.spotifyx.com # jumphost (administrative host for dmz and private network)
+sto3-outbound-a1.sto3.spotifyx.com # outbound (response)
+sto3-outbound-a3.sto3.spotifyx.com # outbound (response)
+sto3-ssoproxy-a1.sto3.spotifyx.net # single sign-on proxy server
+sto3-weblb-wg6.sto3.spotifyx.com # load balancer / reverse dns / stockholm gateway
+sto3.spotifyx.com
+store.intercom.io
+support.spotifyx.com # support site, links to weblb-wg.dual-gslb.spotifyx.com
+support.tune.com
+support2.scdn.co # spotifyx support, links to beta.spotifyx.map.fastly.net
+surveys.spotifyx.com # surveys (tune your taste), links to weblb-wg.gslb.spotifyx.com
 svast.moatads.com
 svastx.moatads.com
+svn.comscore.com
+switchboard.mixpanel.com
+sync.adaptv.advertising.com
+sync.search.spotxchange.com # syncs ads, links to ams01.event.spotxchange.com (should be blocked)
+t.admob.com
+t.myvisualiq.net
+t.scdn.co # images, links to beta.spotifyx.map.fastly.net
 t.update.moatads.com
+tap1.vip.sc9.admob.com
+tathra.ash.spotifyx.com # data server
+tathra.ash1.spotifyx.com # data server
+techattend.com
+terraform-modules-test.intercom.io
+thisis-images.scdn.co # this is playlists images, links to beta.spotifyx.map.fastly.net
+tic1.vip.sc9.admob.com
+timecapsule.spotifyx.com # music of your generation
+tpc.googlesyndication.com
+track.leanlab.co (tracking pixel)
+tracking.admobsphere.com
 tribpubdfp745347008913.s.moatpixel.com
+tune.com
+tv-cast-prod.scdn.co # interface for smart tv (series?), links to beta.spotifyx.map.fastly.net
+tv-static.scdn.co # some static images for smart tv, links to beta.spotifyx.map.fastly.net
+tv.scdn.co # images for smart tv, links to beta.spotifyx.map.fastly.net
+tx102.sc9.admob.com
+tx103.sc9.admob.com
+u.admob.com
 u.moatads.com
+u.scdn.co
+u.scdn.co # images, links to beta.spotifyx.map.fastly.net, maybe upsell
+udm.scorecardresearch.com
+ui.cp.tune.com
+ukr.admob.com
+ulink.adjust.com
 update.moatads.com
+updates.tune.com
+upgrade.scdn.co
+upgrade.scdn.co # upgrade spotifyx, links to beta.spotifyx.map.fastly.net (could block)
+upgrade.scdn.co#optional
+upgrade.spotifyx.com
+upgrade.spotifyx.com # upgrade, links to download.spotifyx.map.fastly.net (could block)
+upgrade.spotifyx.com#optional
+upsell.scdn.co # upgrade ads (should be blocked), links to beta.spotifyx.map.fastly.net
 upv4.moatads.com
+useradmin.spotifyx.com # mellon user administration (ann arbor)
+v.admob.com
+v.jwpcdn.com
 v3.moatads.com
 v4.moatads.com
 vast.moatads.com
 vastx.moatads.com
+via.intercom.io
+video-ad-stats.googlesyndication.com
+video-akp-cdn-spotifyx-com.akamaized.net
+video-fa-b.cdn.spotifyx.com
+video-fa-b.cdn.spotifyx.com # video, links to beta.spotifyx.map.fastly.net (should be blocked)
+video-fa.cdn.spotifyx.com
+video-fa.cdn.spotifyx.com # video, links to beta.spotifyx.map.fastly.net (should be blocked)
+video-fa.scdn.co
+video-fa.scdn.co # video, links to beta.spotifyx.map.fastly.net (should be blocked)
+view.adjust.com
+vip.sc9.admob.com
 vpb0.moatads.com
+vpn-ash1-1.ash.spotifyx.com # vpn to ashburn
+vpn-ash1-1.ash1.spotifyx.com # vpn to ashburn
+vt.myvisualiq.net
 vu.moatads.com
+w.admob.com
+w.intercom.io
+wab.spotifyx.com # ?, links to mobile-001.lon.spotifyx.com
+wap.admob.com
+waps.admob.com
+wave.spotifyx.com # google wave (ghs.google.com)
+weblb-wg.dual-gslb.spotifyx.com # main load balancer / reverse dns, links to many google cloud locations
+weblb-wg.gslb.spotifyx.com
+weblb-wg.gslb.spotifyx.com # main load balancer / reverse dns, links to many google cloud locations
+webplayersupport.spotifyx.com # non existent, links to weblb-wg.dual-gslb.spotifyx.com
+welcome-images.scdn.co # images at first login?, links to beta.spotifyx.map.fastly.net
+wendy.admob.com
+wg.spotifyx.com # gateway, links to weblb-wg.dual-gslb.spotifyx.com
+widget.intercom.io
 wildcard.moatads.com.edgekey.net
+wl.spotifyx.com # old web site
+wl.support.spotifyx.com # old support site
+woody.intercom.io
+ws-partner.spotifyx.com # payment partner
+ws.spotifyx.com # payments, links to weblb-wg.dual-gslb.spotifyx.com
+www-001.lon.spotifyx.com # ?
+www.admob.com
+www.admob.com.akadns.net
+www.comscore.com
+www.cp.tune.com
+www.googleadservices.com
+www.googletagservices.com
+www.intercom.io
+www.m.spotifyx.com # mobile site, links to www.spotifyx.com
+www.mixpanel.com
 www.moatads.com
+www.mycomscore.net
+www.omaze.com
+www.scdn.co # home page images etc, links to beta.spotifyx.map.fastly.net
+www.spotifyx-desktop.com # web site, links to www.spotifyx.com
+www.spotifyx.com # web site, links to weblb-wg.dual-gslb.spotifyx.com
+www.spotx.tv $ spotifyx advertisement platform aka skipit.com, links to spotx.tv
+www.ui.cp.tune.com
 www.upv4.moatads.com
+www1.vip.sc9.admob.com
+x.admob.com
+y.admob.com
 y.moatads.com
+yearinmusic.spotifyx.com # year in music, links to blb-wg.dual-gslb.spotifyx.com
 yj.moatads.com
 yt.moatads.com
 yts.moatads.com
+z.admob.com
 z.moatads.com
-# block myvisualiq tracker (used in web player)
-t.myvisualiq.net
-vt.myvisualiq.net
-# omaze
-# pubmatic
-gads22000.pubmatic.com
-# ravenjs (debugging etc)
-cdn.ravenjs.com
-# scorecardresearch
-sb.scorecardresearch.com
-udm.scorecardresearch.com
-# sizmek technologies
-# telia
-# the whiz marketing
-# verizon
-cs934.wac.thetacdn.net
-# voicefive
-ar.voicefive.com
-sb.voicefive.com
-# yahoo adflurry
-ads.flurry.com
-media-router-flurry7.prod.media.wg1.b.yahoo.com
-# zwizz army knife (anonymous)
-api.zwizzarmyknife.com
-0.0.0.0 star-z-mini.c10r.facebook.com
-0.0.0.0 secure-gg.imrworldwide.com
-0.0.0.0 imagesrv.adition.com
-0.0.0.0 ad3.adfarm1.adition.com
-0.0.0.0 a301.w62d.akamai.net
-0.0.0.0 a297.c.akamai.net
-#127.0.0.1 beta.spotifyx.map.fastly.net
-#127.0.0.1 beta.spotifyx.map.fastlylb.net
-127.0.0.1 prod.spotifyx-heads.map.fastlylb.net
-#127.0.0.1 prod.spotifyx.map.fastly.net
-#127.0.0.1 prod.spotifyx.map.fastlylb.net
-0.0.0.0 adclick.g.doublecklick.
-0.0.0.0 adeventtracker.spotifyx.
-0.0.0.0 ads-fa.spotifyx.0.0.0.0 ads.pubmatic.c
-0.0.0.0 analytics.spotifyx.
-0.0.0.0 b.scorecardresearch.
-0.0.0.0 bounceexchange.
-0.0.0.0 bs.serving-sys.
-0.0.0.0 content.bitsontherun.
-0.0.0.0 core.insightexpressai.
-0.0.0.0 d2gi7ultltnc2u.cloudfront.
-0.0.0.0 d3rt1990lpmkn.cloudfront.
-0.0.0.0 doubleclick.
-0.0.0.0 ds.serving-sys.0.0.0.0 gads.pubmatic.c
-0.0.0.0 googleads.g.doubleclick.
-0.0.0.0 gtssl2-ocsp.geotrust.
-0.0.0.0 js.moatads.
-0.0.0.0 log.spotifyx.
-0.0.0.0 media-match.
-0.0.0.0 omaze.
-0.0.0.0 pagead46.l.doubleclick.
-0.0.0.0 pagead2.googlesyndication.
-0.0.0.0 partner.googleadservices.
-0.0.0.0 pubads.g.doubleclick.
-0.0.0.0 redirector.gvt1.
-0.0.0.0 s0.2mdn.
-0.0.0.0 securepubads.g.doubleclick.n
-0.0.0.0 tpc.googlesyndication.
-0.0.0.0 v.jwpcdn.
-0.0.0.0 video-ad-stats.googlesyndication.
-0.0.0.0 weblb-wg.gslb.spotifyx.
-0.0.0.0 www.googleadservices.
-0.0.0.0 www.googletagservices.
-0.0.0.0 spclient.wg.spotifyx.com
+zhcn.admob.com
