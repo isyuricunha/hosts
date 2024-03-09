@@ -6,7 +6,7 @@ This repository is dedicated to maintaining and version-controlling the Windows 
 
 ## Contents
 
-The hosts file in this repository contains over 18,000 lines of entries that block ads and tracking from a variety of sources, including:
+The hosts file in this repository contains over 1,900 lines of entries that block ads and tracking from a variety of sources, including:
 
 - Ads from major ad networks, such as Google AdSense, Facebook Audience Network, and Amazon Advertising
 - Tracking cookies from ad networks and other companies
