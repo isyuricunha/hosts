@@ -21,6 +21,7 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
+      # Gera o próximo número da versão de forma simulada (dry-run)
       - name: Minor version for each merge (dry run)
         id: taggerDryRun
         uses: anothrNick/github-tag-action@1.36.0
@@ -30,21 +31,20 @@ jobs:
           DRY_RUN: true
           DEFAULT_BUMP: patch
           BRANCH_HISTORY: compare
-          TAG_NAME: 'v${{ steps.taggerDryRun.outputs.new_tag }}'
 
       - name: echo new tag
         run: echo "The next tag version will be: ${{ steps.taggerDryRun.outputs.new_tag }}"
 
-      - name: echo tag
+      - name: echo current tag
         run: echo "The current tag is: ${{ steps.taggerDryRun.outputs.tag }}"
 
       - name: echo part
         run: echo "The version increment was: ${{ steps.taggerDryRun.outputs.part }}"
 
-      # DO MY BUILD HERE
-      # IN CASE OF FAILURE, THE STEP BELOW WILL NOT RUN.
+      # Aqui seria onde você colocaria a parte de build.
+      # Se o build falhar, o próximo passo de criação de release não será executado.
 
-      - name: Minor version for each merge
+      - name: Minor version for each merge (final)
         id: taggerFinal
         uses: anothrNick/github-tag-action@1.36.0
         env:
@@ -52,12 +52,11 @@ jobs:
           WITH_V: true
           DEFAULT_BUMP: patch
           BRANCH_HISTORY: compare
-          TAG_NAME: 'v${{ steps.taggerFinal.outputs.new_tag }}'
 
       - name: Generate release notes
         id: release_notes
         run: |
-          notes=$(git log --oneline --decorate --no-merges "${{ steps.taggerFinal.outputs.tag }}..${{ steps.taggerFinal.outputs.new_tag }}")
+          notes=$(git log --oneline --decorate --no-merges "${{ steps.taggerFinal.outputs.tag }}..HEAD")
           echo "notes=${notes}" >> $GITHUB_ENV
 
       - name: 'Generate tag and create release'
@@ -70,3 +69,13 @@ jobs:
           release_name: Release ${{ steps.taggerFinal.outputs.new_tag }}
           body: ${{ env.notes }}
           draft: false
+
+      - name: 'Generate changelog and create release'
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: '${{ secrets.GITHUB_TOKEN }}'
+          automatic_release_tag: '${{ steps.taggerFinal.outputs.new_tag }}'
+          prerelease: false
+          title: 'Last build: ${{ steps.taggerFinal.outputs.new_tag }}'
+          files: |
+            *
