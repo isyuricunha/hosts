@@ -70,13 +70,3 @@ jobs:
           release_name: Release ${{ steps.taggerFinal.outputs.new_tag }}
           body: ${{ env.notes }}
           draft: false
-
-      - name: 'Generate changelog and create release'
-        uses: marvinpinto/action-automatic-releases@latest
-        with:
-          repo_token: '${{ secrets.GITHUB_TOKEN }}'
-          automatic_release_tag: '${{ steps.taggerFinal.outputs.new_tag }}'
-          prerelease: false
-          title: 'Last build: ${{ steps.taggerFinal.outputs.new_tag }}'
-          files: |
-            *
