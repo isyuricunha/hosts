@@ -21,7 +21,6 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-      # Gera o próximo número da versão de forma simulada (dry-run)
       - name: Minor version for each merge (dry run)
         id: taggerDryRun
         uses: anothrNick/github-tag-action@1.36.0
@@ -41,9 +40,8 @@ jobs:
       - name: echo part
         run: echo "The version increment was: ${{ steps.taggerDryRun.outputs.part }}"
 
-      # Aqui seria onde você colocaria a parte de build.
-      # Se o build falhar, o próximo passo de criação de release não será executado.
-
+      # Aqui você pode adicionar os passos para compilar ou testar seu código.
+      
       - name: Minor version for each merge (final)
         id: taggerFinal
         uses: anothrNick/github-tag-action@1.36.0
@@ -60,7 +58,6 @@ jobs:
           echo "notes=${notes}" >> $GITHUB_ENV
 
       - name: 'Generate tag and create release'
-        id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -73,8 +70,8 @@ jobs:
       - name: 'Generate changelog and create release'
         uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: '${{ secrets.GITHUB_TOKEN }}'
-          automatic_release_tag: '${{ steps.taggerFinal.outputs.new_tag }}'
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: ${{ steps.taggerFinal.outputs.new_tag }}
           prerelease: false
           title: 'Last build: ${{ steps.taggerFinal.outputs.new_tag }}'
           files: |
