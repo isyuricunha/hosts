@@ -48,6 +48,4 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./
-          asset_name: your_asset_name
-          asset_content_type: application/zip
+          asset_path: ./*
